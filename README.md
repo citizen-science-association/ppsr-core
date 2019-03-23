@@ -1,5 +1,5 @@
 # DMWG-PPSR-Core
-PPSR Core standards repsository
+PPSR Core standards repsository - THIS REPOSITORY IS STILL UNDER DEVELOPMENT
 With the growth of citizen science comes the challenge of coordinating people, projects, and data. These
 challenges also present an opportunity. Through the use of data and metadata standards and other mechanisms
 to promote interoperability, data can support multiple research questions, allowing citizen science to help address
