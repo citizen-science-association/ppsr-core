@@ -13,7 +13,17 @@ In 2015, the U.S. Citizen Science Association (CSA) founded a Data and Metadata 
 
 This consensus document reports on the outcomes of CitSci2017 and subsequent discussions and advances the shared agenda of working group members.
 
-## History and mission of the CSA Data and Metadata Working Group
+## Purpose and Mission of the CSA Data and Metadata Working Group
+The purpose of this working group is to develop international standards for citizen science data and metadata, with the goal of supporting inoperability and facilitating collaboration. 
+Major Objectives:
+  1.	Develop a formal ontology to describe citizen science, including information on citizen science project metadata, to support research on citizen science, advance practice by demonstrating data quality, and allow different project databases to share information. 
+  2.	Link the citizen science ontology to relevant standards describing citizen science data sets, to support discoverability and reuse of citizen generated data.
+  3.	Link the citizen science ontology and identified metadata standards to a suite of tools, technologies, and platforms that facilitate data collection and analysis to create a global network for citizen science data collection, curation, and use.  
+Relationship to other working groups: The Data & Metadata Working Group will work closely with the Web/ Communications Working Group. To facilitate collaboration, three members of the web and communications working group—Greg Newman, Jennifer Shirk, and Darlene Cavalier—are proposed as members of the Data/Metadata Working Group. 
+
+Equally important are our collaborations with working groups in ECSA and ACSA to support the collaborative development of global data and metadata standards for citizen science.
+
+## History
 During the fall of 2013, organizations supporting citizen science convened in Albuquerque, NM and Philadelphia, PA to discuss how to best share information about the growing number of citizen science, or public participation in scientific research (PPSR), projects. These early meetings were supported by the DataONE PPSR Working Group and SciStarter. Attendees represented databases of citizen science projects compiled by SciStarter, CitSci.org, the Cornell Lab of Ornithology, and the Wilson Center. 
 
 These organizations reached a landmark agreement - to share basic information across databases that catalog citizen science projects. The collaborative success for citizen science and PPSR led to the development of an initial PPSR-Core project metadata protocol (Appendix A). Sharing information across databases maximizes everyone’s efforts, getting more “bang for the buck” out of information about citizen science projects everywhere. It leads to current, up-to-date, synchronized project lists and promotes a broader understanding of the global practice of citizen science.
