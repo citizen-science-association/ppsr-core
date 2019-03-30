@@ -32,16 +32,6 @@ In 2016, the European Commission Joint Research Centre (JRC) invited 20 internat
 
 As stated in our charter, the purpose of the Citizen Science Association Data and Metadata WG is to support, advance, and facilitate data interoperability among and between citizen science projects and other data repositories; and, to promote collaboration in citizen science via the development and/or improvement of international standards for data and metadata. The goals of the CSA Data & Metadata WG are to track and coordinate global efforts towards data and metadata interoperability and to ensure that all relevant stakeholders are included in these discussions.
 
-Members of CSA, ECSA, and ACSA jointly proposed a CSA Data and Metadata WG with these goals in mind. In November 2015, CSA formally approved the Data and Metadata WG Charter. Also around this time a memorandum4 issued by Dr. John Holdren, Director of the US White House Office of Science and Technology Policy (OSTP), instructed executive branch agencies to “develop the metadata requirements” for a federal catalog of crowdsourcing and citizen science projects. This memorandum helped engage the Federal Community of Practice for Crowdsourcing and Citizen Science (CCS) in developing project metadata for an expanded version of the catalog hosted by the Wilson Center.
-
-In 2016, the European Commission Joint Research Centre (JRC) invited 20 international participants, including members of the three associations, to Ispra, Italy for a workshop to discuss data and service infrastructures for citizen science. Participants were asked to: 
-  (1) discuss the relationships between existing databases; 
-  (2) identify major requirements for interoperability between citizen science project databases, including a new database to be hosted by the European Commission; 
-  (3) draft a reference model for analyzing and sharing citizen science tools and data; and, 
-  (4) define a high-level roadmap with checkpoints for synchronizing ongoing activities related to standardization. This meeting led to an initial list of key projects for the working group.
-
-As stated in our charter, the purpose of the Citizen Science Association Data and Metadata WG is to support, advance, and facilitate data interoperability among and between citizen science projects and other data repositories; and, to promote collaboration in citizen science via the development and/or improvement of international standards for data and metadata. The goals of the CSA Data & Metadata WG are to track and coordinate global efforts towards data and metadata interoperability and to ensure that all relevant stakeholders are included in these discussions.
-
 ## Rationale for Developing the PPSR-Core
 Sharing information across databases maximizes everyone’s efforts, getting more “bang for the buck” out of information about citizen science projects everywhere. It leads to current, up-to-date, synchronized project lists and promotes a broader understanding of the global practice of citizen science.
 
