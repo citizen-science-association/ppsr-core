@@ -2,6 +2,8 @@
 
 ## PPSR Core Data & Metadata Standards Repsository - **NOTE: THIS REPOSITORY IS STILL UNDER DEVELOPMENT**
 
+The following content is largely taken from the introductory chapter of Bowser A., Brenton P., Stevenson R., Newman G., Schade S., Bastin L., Parker A. and Oliver, J. (2017) “Citizen Science Association Data &Metadata Working Group: Report from CSA and Future Outlook.” Workshop Report. Woodrow Wilson International Center for Scholars, Washington, DC, 2017.
+
 ## Introduction
 With the growth of citizen science comes the challenge of coordinating people, projects, and data. These challenges also present an opportunity. Through the use of data and metadata standards and other mechanisms to promote interoperability, data can support multiple research questions, allowing citizen science to help address ever-grander issues and problems on local, regional, national, and global scales.
 
