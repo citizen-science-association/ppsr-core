@@ -46,6 +46,11 @@ In 2016, the European Commission Joint Research Centre (JRC) invited 20 internat
 
 As stated in our charter, the purpose of the Citizen Science Association Data and Metadata WG is to support, advance, and facilitate data interoperability among and between citizen science projects and other data repositories; and, to promote collaboration in citizen science via the development and/or improvement of international standards for data and metadata. The goals of the CSA Data & Metadata WG are to track and coordinate global efforts towards data and metadata interoperability and to ensure that all relevant stakeholders are included in these discussions.
 
+## What is the PPSR-Core?
+PPSR-Core is a set of global, transdisciplinary data and metadata standards describing contextualized details about PPSR projects (Project Data Model, or PDM), datasets (Dataset Data Model, or DDM), and data (Observation Data Model, or ODM). These standards are united, supported, and underlined by a common framework, the PPSR-Core common data model (CDM), which illustrates how information is structured within the citizen science domain (figure 1).
+
+The PPSR-Core is not setting out to create a new data standard for the sake of creating a new standard. Instead it aims to unify a suite of existing data and metadata standards and ontologies into a standardized framework for application in the citizen science domain. In this respect it either uses the terms already applied in existing standards or provides attribute-level mappings between terms used in the PPSR-Core and equivalent terms used in other applicable standards (sometimes several). Where the PPSR context requires it or where there is no equivalent term available in other applicable standards, this standard will specify new attribute terms in the ppsr namespace.
+
 ## Rationale for Developing the PPSR-Core
 Sharing information across databases maximizes everyone’s efforts, getting more “bang for the buck” out of information about citizen science projects everywhere. It leads to current, up-to-date, synchronized project lists and promotes a broader understanding of the global practice of citizen science.
 
@@ -62,6 +67,7 @@ The CSA website will serve as the public face of the Data and Metadata WG.
 ### Governance and Maintenance of the PPSR-Core Standard
 At a Working Group workshop in Geneva (June 2018), a representative group of individuals was "appointed" to be the governance authority for the PPSR-Core standard.
 
+The following process for updates and maintenance of the PPSR-Core Standard will apply from March 2019:
 - Proposals for corrections, updates or extensions to the PPSR-Core standard should be submitted to the governance group chairperson. A proforma template for this will be attached to this repository for this purpose. 
 - Proposals will be considered by the governance group and may involve discussions with the proposer before a decision is made.
 - Successful proposals will be notified to the proposer by the governance group chairperson.
