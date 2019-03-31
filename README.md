@@ -1,6 +1,6 @@
-# DMWG-PPSR-Core
+# CSA Data & Metadata Morking Group
 
-## PPSR Core standards repsository - **THIS REPOSITORY IS STILL UNDER DEVELOPMENT**
+## PPSR Core Data & Metadata Standards Repsository - **NOTE: THIS REPOSITORY IS STILL UNDER DEVELOPMENT**
 
 ## Introduction
 With the growth of citizen science comes the challenge of coordinating people, projects, and data. These challenges also present an opportunity. Through the use of data and metadata standards and other mechanisms to promote interoperability, data can support multiple research questions, allowing citizen science to help address ever-grander issues and problems on local, regional, national, and global scales.
@@ -59,24 +59,29 @@ The CSA website will serve as the public face of the Data and Metadata WG.
 
 ### Founding Co-chairs
 Name Affiliation
--	Anne Bowser CSA Board of Directors, The Wilson Center
--	Greg Newman CSA Board of Directors, Colorado State University, CitSci.org
+-	Anne Bowser, CSA Board of Directors, The Wilson Center
+-	Greg Newman, CSA Board of Directors, Colorado State University, CitSci.org
+
+### Current Co-chairs (Mar 2019)
+Name Affiliation
+-	Justin Schell, Director, Shapiro Design Lab, University of Michigan Library.
+-	Greg Newman, CSA Board of Directors, Colorado State University, CitSci.org
 
 ### Citizen Science Association Liaisons
   1. The European Citizen Science Association (ECSA). CSA and ECSA have an active Memorandum of Understanding (MoU) to work together on web-based services and resources including project databases, initiatives, and guidelines. In addition, ECSA supports a Projects, Data, Tools, and Technology Working Group. ECSA liaisons:
 Name Affiliation
-    -	Luigi Ceccaroni (ECSA Board of Directors, 1000001 Labs)
-    -	Jaume Piera (ICM-CISC)
+    -	Luigi Ceccaroni, (ECSA Board of Directors, 1000001 Labs)
+    -	Jaume Piera, (ICM-CISC)
 
   2. The Australian Citizen Science Association (ACSA). CSA and ACSA have an active MoU to work together on web-based services and resources including project databases, initiatives, and guidelines. ACSA liaisons:
 Name Affiliation
-    -	Peter Brenton (Atlas of Living Australia)
-    -	Jessie Oliver (ACSA Management Committee, Queensland University of Technology)
+    -	Peter Brenton, (Atlas of Living Australia)
+    -	Jessie Oliver, (ACSA Management Committee, Queensland University of Technology)
 
 ### Standards Development Organization (and similar) Liaisons
   1. Open Geospatial Consortium (OGC). OGC supports a Citizen Science Domain Working Group (DWG). 
   CSA and OGC have an active MoU to work together on developing citizen science data standards.
-    - Ingo Simonis (Open Geospatial Consortium)
+    - Ingo Simonis, (Open Geospatial Consortium)
 
   2. International Council for Science: Committee on Data for Science and Technology (CODATA) and World Data System (WDS). 
   A joint CODATA-WDS Task Group (TG) addresses Citizen Science and the Validation, Curation, and Management of Crowdsourced Data.
@@ -87,5 +92,5 @@ Name Affiliation
     - Rob Stevenson (University of Massachusetts – Boston)
 
   4. World Wide Web Consortium (W3C). W3C is responsible for the Data Catalog vocabulary (DCAT) which is currently under revision by the Data eXchange Working Group (DXWG) W3C liaison:
-    - Simon Cox CSIRO
+    - Simon Cox, CSIRO, Australia
 
