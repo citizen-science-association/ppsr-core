@@ -4,6 +4,8 @@
 
 The following content is largely taken from the introductory chapter of Bowser A., Brenton P., Stevenson R., Newman G., Schade S., Bastin L., Parker A. and Oliver, J. (2017) “Citizen Science Association Data &Metadata Working Group: Report from CSA and Future Outlook.” Workshop Report. Woodrow Wilson International Center for Scholars, Washington, DC, 2017.
 
+#### Note that this repository is the cannonical version of the PPSR-Core Standard.
+
 ## Introduction
 With the growth of citizen science comes the challenge of coordinating people, projects, and data. These challenges also present an opportunity. Through the use of data and metadata standards and other mechanisms to promote interoperability, data can support multiple research questions, allowing citizen science to help address ever-grander issues and problems on local, regional, national, and global scales.
 
@@ -56,6 +58,16 @@ The working group will hold an in-person meeting at each biennial CSA conference
   (1) The Member 365 platform, accessible to all CSA members; and 
   (2) Basecamp, accessible to all CSA working group members by invitation. 
 The CSA website will serve as the public face of the Data and Metadata WG.
+
+### Governance and Maintenance of the PPSR-Core Standard
+At a Working Group workshop in Geneva (June 2018), a representative group of individuals was "appointed" to be the governance authority for the PPSR-Core standard.
+
+- Proposals for corrections, updates or extensions to the PPSR-Core standard should be submitted to the governance group chairperson. A proforma template for this will be attached to this repository for this purpose. 
+- Proposals will be considered by the governance group and may involve discussions with the proposer before a decision is made.
+- Successful proposals will be notified to the proposer by the governance group chairperson.
+- If successful, a member of the governance group will update the cannonical version of the standard in this GitHub repository and issue the next appropriate version number. This GitHub repository will be used for version control.
+- Details of the version updates will be posted in reverse chronological order on the version change management wiki page in this GitHub repository. A communication of the update will also be actioned via the D&MWG communications channels and sent to all Citizen Science Associations for publishing in their respective newsletters.
+
 
 ## Working Group Members
 
