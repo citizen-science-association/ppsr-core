@@ -14,33 +14,9 @@ Major Objectives:
 
 For further information about the CSA Data & Metadata Working Group, see the attached wiki page in this repository.
 
-## What is the PPSR-Core?
-PPSR-Core is a set of global, transdisciplinary data and metadata standards describing contextualized details about PPSR projects (Project Data Model, or PDM), datasets (Dataset Data Model, or DDM), and data (Observation Data Model, or ODM). These standards are united, supported, and underlined by a common framework, the PPSR-Core common data model (CDM), which illustrates how information is structured within the citizen science domain (figure 1).
-
-The PPSR-Core is not setting out to create a new data standard for the sake of creating a new standard. Instead it aims to unify a suite of existing data and metadata standards and ontologies into a standardized framework for application in the citizen science domain. In this respect it either uses the terms already applied in existing standards or provides attribute-level mappings between terms used in the PPSR-Core and equivalent terms used in other applicable standards (sometimes several). Where the PPSR context requires it or where there is no equivalent term available in other applicable standards, this standard will specify new attribute terms in the ppsr namespace.
-
-## Rationale for Developing the PPSR-Core
-Sharing information across databases maximizes everyone’s efforts, getting more “bang for the buck” out of information about citizen science projects everywhere. It leads to current, up-to-date, synchronized project lists and promotes a broader understanding of the global practice of citizen science.
-
-## Governance structure and leadership team
-As with other CSA working groups, the CSA Data and Metadata WG is led by two co-chairs. Governance over the working group is shared between the co-chairs along with liaisons to partner Citizen Science Associations, including the European Citizen Science Association (ECSA) and the Australian Citizen Science Association (ACSA), and with liaisons to Standards Development Organizations (SDOs) and similar groups. Together, the co-chairs and liaisons comprise the CSA Data and Metadata WG leadership team.
-
-The work of the CSA Data and Metadata WG is supported and implemented by the leadership team and members at large. The leadership team, in consultation with members at large, is responsible for identifying bigpicture projects. The leadership team also pursues funding opportunities and coordinates across organizations to ensure that projects have sufficient support to succeed. Projects may be broken down into task forces, which have designated leaders, specific objectives, and a time frame for completion. Any member of the CSA Data and Metadata WG may propose or lead a task force.
-
-The working group will hold an in-person meeting at each biennial CSA conference, quarterly virtual meetings, and regional meetings on an ad hoc basis. Meetings are intended to give updates on projects and task forces. Outside of meetings, virtual coordination and collaboration will be centralized through two primary platforms: 
-  (1) The Member 365 platform, accessible to all CSA members; and 
-  (2) Basecamp, accessible to all CSA working group members by invitation. 
-The CSA website will serve as the public face of the Data and Metadata WG.
-
-### Governance and Maintenance of the PPSR-Core Standard
-At a Working Group workshop in Geneva (June 2018), a representative group of individuals was "appointed" to be the governance authority for the PPSR-Core standard.
-
-The following process for updates and maintenance of the PPSR-Core Standard will apply from March 2019:
-- Proposals for corrections, updates or extensions to the PPSR-Core standard should be submitted to the governance group chairperson. A proforma template for this will be attached to this repository for this purpose. 
-- Proposals will be considered by the governance group and may involve discussions with the proposer before a decision is made.
-- Successful proposals will be notified to the proposer by the governance group chairperson.
-- If successful, a member of the governance group will update the cannonical version of the standard in this GitHub repository and issue the next appropriate version number. This GitHub repository will be used for version control.
-- Details of the version updates will be posted in reverse chronological order on the version change management wiki page in this GitHub repository. A communication of the update will also be actioned via the D&MWG communications channels and sent to all Citizen Science Associations for publishing in their respective newsletters.
+[What is the PPSR-Core?](https://github.com/CitSciAssoc/DMWG-PPSR-Core/wiki/About-the-PPSR-Core#what-is-the-ppsr-core)
+[Governance and Maintenance of the PPSR-Core Standard](https://github.com/CitSciAssoc/DMWG-PPSR-Core/wiki/About-the-PPSR-Core#governance-structure-and-leadership-team)
+[The PPSR-Core Ontology](https://github.com/CitSciAssoc/DMWG-PPSR-Core/wiki/PPSR-Core-Ontology)
 
 
 ## PPSR-Core Task Group Members (**This list needs updating**)
