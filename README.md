@@ -14,9 +14,9 @@ Major Objectives:
 
 For further information about the CSA Data & Metadata Working Group, see the attached wiki page in this repository.
 
-[What is the PPSR-Core?](https://github.com/CitSciAssoc/DMWG-PPSR-Core/wiki/About-the-PPSR-Core#what-is-the-ppsr-core)
-[Governance and Maintenance of the PPSR-Core Standard](https://github.com/CitSciAssoc/DMWG-PPSR-Core/wiki/About-the-PPSR-Core#governance-structure-and-leadership-team)
-[The PPSR-Core Ontology](https://github.com/CitSciAssoc/DMWG-PPSR-Core/wiki/PPSR-Core-Ontology)
+  - [What is the PPSR-Core?](https://github.com/CitSciAssoc/DMWG-PPSR-Core/wiki/About-the-PPSR-Core#what-is-the-ppsr-core)
+  - [Governance and Maintenance of the PPSR-Core Standard](https://github.com/CitSciAssoc/DMWG-PPSR-Core/wiki/About-the-PPSR-Core#governance-structure-and-leadership-team)
+  - [The PPSR-Core Ontology](https://github.com/CitSciAssoc/DMWG-PPSR-Core/wiki/PPSR-Core-Ontology)
 
 
 ## PPSR-Core Task Group Members (**This list needs updating**)
