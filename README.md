@@ -17,3 +17,4 @@ For further information about the [CSA Data & Metadata Working Group](https://gi
   - [What is the PPSR-Core?](https://github.com/CitSciAssoc/DMWG-PPSR-Core/wiki/About-the-PPSR-Core#what-is-the-ppsr-core)
   - [Governance and Maintenance of the PPSR-Core Standard](https://github.com/CitSciAssoc/DMWG-PPSR-Core/wiki/About-the-PPSR-Core#governance-structure-and-leadership-team)
   - [The PPSR-Core Ontology](https://github.com/CitSciAssoc/DMWG-PPSR-Core/wiki/PPSR-Core-Ontology)
+  - [Approach to addressing Data Quality and Quality Assurance Processes through the PPSR Core Standard](https://github.com/CitSciAssoc/DMWG-PPSR-Core/wiki/Approach-to-addressing-Data-Quality-and-Quality-Assurance-Processes-through-the-PPSR-Core-Standard)
