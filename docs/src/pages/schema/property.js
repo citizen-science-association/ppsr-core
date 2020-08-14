@@ -4,7 +4,7 @@ import SchemaLayout from '../../components/schema'
 function SchemaPage() {
   return (
     <Layout title="Schema">
-      <SchemaLayout label="Airline"></SchemaLayout>
+      <SchemaLayout label="Property"></SchemaLayout>
     </Layout>
   );
 }
