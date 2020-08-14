@@ -1,0 +1,35 @@
+{
+    "@context": {
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@graph": [
+        {
+            "@id": "http://schema.org/Project",
+            "@type": "rdfs:Class",
+            "http://schema.org/category": "issue-383",
+            "http://schema.org/isPartOf": {
+              "@id": "http://pending.schema.org"
+            },
+            "http://schema.org/source": {
+              "@id": "https://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#FundInfoCollab"
+            },
+            "rdfs:comment": "An enterprise (potentially individual but typically collaborative), planned to achieve a particular aim.\nUse properties from <a class=\"localLink\" href=\"http://schema.org/Organization\">Organization</a>, <a class=\"localLink\" href=\"http://schema.org/subOrganization\">subOrganization</a>/<a class=\"localLink\" href=\"http://schema.org/parentOrganization\">parentOrganization</a> to indicate project sub-structures.",
+            "rdfs:label": "Project",
+            "rdfs:subClassOf": {
+              "@id": "http://schema.org/Organization"
+            }
+          },
+          {
+            "@id": "http://schema.org/Organization",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "An organization such as a school, NGO, corporation, club, etc.",
+            "rdfs:label": "Organization",
+            "rdfs:subClassOf": {
+              "@id": "http://schema.org/Thing"
+            }
+          }
+    ],
+    "@id": "http://schema.org/#9.0"
+  }
