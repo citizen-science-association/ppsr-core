@@ -1,6 +1,6 @@
 ---
-id: doc1
-title: Style Guide
+id: about
+title: About
 ---
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).

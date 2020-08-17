@@ -1,6 +1,6 @@
 import React from "react";
 import schemaJson from "@site/static/json/schema.org.json";
-import JsonPretty from "../jsonPretty";
+import JsonPrint from "../JsonPrint";
 class SchemaLayout extends React.Component {
     constructor(props) {
         super(props);
@@ -15,13 +15,13 @@ class SchemaLayout extends React.Component {
     return (
       <div
       style={{
-        margin: "0",
+        margin: "15px",
       }}
       >
         <h1>{this.json["rdfs:label"]}</h1>  
         <h3>{this.json["rdfs:comment"]}</h3>
     
-          <JsonPretty json={this.json} ></JsonPretty>
+          <JsonPrint json={this.json} ></JsonPrint>
      
       </div>
     );
