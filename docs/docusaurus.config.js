@@ -1,6 +1,6 @@
 module.exports = {
   title: 'PPSR Data Standard',
-  tagline: 'A Data Standard for Public Participation in Scinetific Research',
+  tagline: 'A Data Standard for Public Participation in Scientific Research',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
