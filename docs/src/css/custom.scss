@@ -6,7 +6,9 @@
  */
 
 /* You can override the default Infima variables here. */
-/*@import '../../node_modules/@fortawesome/fontawesome-free/css/all.css';*/
+@fa-font-path:   "../webfonts";
+@import '../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss';
+
 
 :root {
   --ifm-color-primary: #ffaf4c;

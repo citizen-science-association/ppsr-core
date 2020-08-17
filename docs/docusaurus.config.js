@@ -7,6 +7,7 @@ module.exports = {
   favicon: 'img/csafavicon.png',
   organizationName: 'Citizen Science Assocaition', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
+  plugins: ['docusaurus-plugin-sass'],
   themeConfig: {
     navbar: {
       title: 'PPSR Core',
@@ -89,7 +90,11 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Citizen Science Assocaition`,
     },
+    prism: {
+      theme: require('prism-react-renderer/themes/dracula'),
+    },
   },
+  
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -109,9 +114,10 @@ module.exports = {
             'https://github.com/facebook/docusaurus/edit/master/website/blog/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/css/custom.scss'),
         },
       },
     ],
   ],
+  
 };

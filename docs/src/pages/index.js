@@ -8,7 +8,7 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Observation</>,
+    title: <>Observation<i className="fas fa-map-marker"></i></>,
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
