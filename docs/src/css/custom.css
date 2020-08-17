@@ -6,14 +6,16 @@
  */
 
 /* You can override the default Infima variables here. */
+/*@import '../../node_modules/@fortawesome/fontawesome-free/css/all.css';*/
+
 :root {
   --ifm-color-primary: #ffaf4c;
-  --ifm-color-primary-dark: #CC8C3D;
-  --ifm-color-primary-darker: #80694D;
-  --ifm-color-primary-darkest: #805726;
-  --ifm-color-primary-light: #FFD199;
-  --ifm-color-primary-lighter: #FFDFB4;
-  --ifm-color-primary-lightest: #FFF4E5;
+  --ifm-color-primary-dark: #ffa02b;
+  --ifm-color-primary-darker: #ff991a;
+  --ifm-color-primary-darkest: #e88000;
+  --ifm-color-primary-light: #ffbe6d;
+  --ifm-color-primary-lighter: #ffc57e;
+  --ifm-color-primary-lightest: #ffdbaf;
   --ifm-code-font-size: 95%;
 }
 
