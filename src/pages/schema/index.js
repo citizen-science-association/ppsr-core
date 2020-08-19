@@ -13,9 +13,10 @@ function SchemaPage() {
             in raw form or be used to fill in placeholders on the page.
           </p>
         </div>
+        <SchemaLayout label="Airline"></SchemaLayout>
+
       </div>
 
-      <SchemaLayout label="Airline"></SchemaLayout>
     </Layout>
   );
 }
