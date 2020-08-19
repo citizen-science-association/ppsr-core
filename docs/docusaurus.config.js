@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'PPSR Data Standard',
+  title: 'PPSR Data Standard Refolder test',
   tagline: 'A Data Standard for Public Participation in Scientific Research',
   url: 'https://bbudnicki.github.io',
   baseUrl: '/docusaurus/',
