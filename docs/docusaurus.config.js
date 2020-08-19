@@ -105,13 +105,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/BBudnicki/docusaurus/edi/master/docs/docs/',
+            'https://github.com/BBudnicki/docusaurus/blob/master/docs/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-          'https://github.com/BBudnicki/docusaurus/edi/master/docs/blog/',
+          'https://github.com/BBudnicki/docusaurus/blob/master/docs/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.scss'),
