@@ -1,11 +1,11 @@
 module.exports = {
   title: 'PPSR Data Standard',
   tagline: 'A Data Standard for Public Participation in Scientific Research',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://bbudnicki.github.io',
+  baseUrl: '/docusaurus/',
   onBrokenLinks: 'throw',
   favicon: 'img/csafavicon.png',
-  organizationName: 'Citizen Science Assocaition', // Usually your GitHub org/user name.
+  organizationName: 'BBudnicki', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   plugins: ['docusaurus-plugin-sass'],
   themeConfig: {

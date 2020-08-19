@@ -8,32 +8,29 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Observation<i className="fas fa-map-marker"></i></>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
-  },
-  {
-    title: <>Dataset</>,
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
     title: <>Project</>,
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Describes the purpose for the research, who is coordinating it, and other contextual information about the project
+      </>
+    ),
+  },
+  {
+    title: <>Data Set</>,
+    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    description: (
+      <>
+        Describes how observations are collected, how that data may be used, and other information on the data as a whole.
+      </>
+    ),
+  },
+  {
+    title: <>Observation<i className="fas fa-map-marker"></i></>,
+    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    description: (
+      <>
+        Describes the struture of indivual observations including: location, date, observer, and attributes specific to the research.
       </>
     ),
   },
@@ -78,6 +75,14 @@ function Home() {
         </div>
       </header>
       <main>
+        <div className="container">
+          <div className="padding-vert--lg">
+        PPSR-Core is a set of global, transdisciplinary data and metadata standards describing for use in &nbsp;
+        <strong>P</strong>ublic <strong>P</strong>articipation in <strong>S</strong>cientific <strong>R</strong>esearch <strong>(PPSR)</strong> projects.  
+        These standards are united, supported, and underlined by a common framework illustrating how information is structured within the citizen science domain.
+          </div>
+        </div>
+
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
@@ -89,6 +94,13 @@ function Home() {
             </div>
           </section>
         )}
+        <div className="container">
+          <div className="padding-vert--lg">
+          <h2><Link to={useBaseUrl('docs/about')}>About</Link></h2>
+        PPSR-Core is maintained by the Citizen Science Assocation <Link to="https://www.citizenscience.org/">citizenscience.org</Link> working 
+        group for <Link to="https://www.citizenscience.org/get-involved/working-groups/data-and-metadata-working-group/">Data & Metadata</Link>.
+        Our international organization represents over 2k diffrent citizen science projects with over 1M volunteers. We welcome a diverse group of indivuals & orgnaizations! To help contribute to our standard, <Link to={useBaseUrl('docs/contribute')}>please read this guide.</Link></div>
+        </div>
       </main>
     </Layout>
   );
