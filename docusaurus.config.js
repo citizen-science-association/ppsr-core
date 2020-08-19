@@ -48,12 +48,20 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
+              label: 'Core',
               to: 'docs/',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'Project',
+              to: 'docs/project',
+            },
+            {
+              label: 'Dataset',
+              to: 'docs/dataset',
+            },
+            {
+              label: 'Observaiton',
+              to: 'docs/observation',
             },
           ],
         },
@@ -61,17 +69,22 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Facebook',
+              href: 'https://www.facebook.com/CitSciAssoc/',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/CitSciAssoc',
             },
+            {
+              label: 'YouTube',
+              href: 'https://www.youtube.com/channel/UChTgtIf9BqiEpWiczvH0jbA',
+            },
+            {
+              label: "LinkedIn",
+              href: "https://www.linkedin.com/company/citizen-science-association",
+
+            }
           ],
         },
         {
@@ -83,7 +96,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/BBudnicki/docusaurus',
             },
           ],
         },
