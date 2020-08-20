@@ -1,11 +1,7 @@
 ---
 id: technical
 title: Technical
-author: Peter Brenton
-author_title: Docusaurus Core Team
-author_url: https://github.com/pbrenton
-author_image_url: https://avatars1.githubusercontent.com/u/8119351?s=460&u=0c79064c6a42ce83f46c5225fd5bc070e1ee900d&v=4
-
+description: How the PPSR website was buildt
 ---
 
 This website is hosted for free by [GitHub Pages](https://docs.github.com/en/github/working-with-github-pages) which is a static site hosting solution. The scaffolding for this site is based on [Docusaurus Version 2.0](https://v2.docusaurus.io/docs/) which takes Markdown and JavaScript files and generates static HTML.

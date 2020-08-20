@@ -1,6 +1,8 @@
 ---
 id: dataset
 title: Dataset
+description: Schema for Datasets in PPSR
+
 ---
 # Dataset Metadata Model (DMM)
   - **DMM entity relationship diagram** - This graphically describes the relationships between the class entities in the dataset metadata model. [current approved version: 2.0.0]

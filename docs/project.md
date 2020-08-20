@@ -1,6 +1,8 @@
 ---
 id: project
 title: Project
+description: Schema for Projects in PPSR
+
 ---
   
 # Project Metadata Model (PMM)

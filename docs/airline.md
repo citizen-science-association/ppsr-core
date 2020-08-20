@@ -3,7 +3,7 @@ id: airline
 title: Airline
 
 ---
-import SchemaLayout from '../../components/schema'
+import SchemaLayout from '@site/src/components/schema'
 
 
 You can write JSX and use React components within your Markdown thanks to [MDX](https://mdxjs.com/)

@@ -19,7 +19,13 @@ module.exports = {
         {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: 'Core',
+          label: 'The Core',
+          position: 'left',
+        },
+        {
+          to: 'docs/contribute',
+          activeBasePath: 'docs/contribute',
+          label: 'Contribute',
           position: 'left',
         },
         {
@@ -41,6 +47,7 @@ module.exports = {
         },
       ],
     },
+    sidebarCollapsible: false,
     footer: {
       style: 'dark',
       links: [

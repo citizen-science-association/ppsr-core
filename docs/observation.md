@@ -1,6 +1,8 @@
 ---
 id: observation
 title: Observation
+description: Schema for Observations in PPSR
+
 ---
   
 # Observational Data Models (ODM)

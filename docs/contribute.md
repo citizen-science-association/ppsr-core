@@ -1,6 +1,8 @@
 ---
 id: contribute
 title: Contribute
+description: Help build PPSR Core
+
 ---
 
 
