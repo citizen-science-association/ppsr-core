@@ -6,7 +6,7 @@ description: Help build PPSR Core
 ---
 
 
-We welcome your contributions to PPSR Core. This site is maintained by a diverse group of voluntteers through the Citizen Science Assocation Data & Meta Data working group. This website serves as the canonical version. We keep track of our work within GitHub (no developer experience required). Proposed changes are made through GitHub pull requests and through the issue tracker. When our workgroup meets we review the pull requests to make decisions on inclusion within PSSR core.
+We welcome your contributions to PPSR Core. This site is maintained by a diverse group of volunteers through the Citizen Science Association Data & Meta Data working group. This website serves as the canonical version. We keep track of our work within GitHub (no developer experience required). Proposed changes are made through GitHub pull requests and through the issue tracker. When our workgroup meets we review the pull requests to make decisions on inclusion within PPSR core.
 
 **Thank you to all our contributors!**
 

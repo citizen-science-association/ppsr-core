@@ -30,7 +30,7 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Describes the struture of indivual observations including: location, date, observer, and attributes specific to the research.
+        Describes the structure of individual observations including: location, date, observer, and attributes specific to the research.
       </>
     ),
   },
@@ -97,9 +97,9 @@ function Home() {
         <div className="container">
           <div className="padding-vert--lg">
           <h2><Link to={useBaseUrl('docs/about')}>About</Link></h2>
-        PPSR-Core is maintained by the Citizen Science Assocation <Link to="https://www.citizenscience.org/">citizenscience.org</Link> working 
+        PPSR Core is maintained by the Citizen Science Association <Link to="https://www.citizenscience.org/">citizenscience.org</Link> working 
         group for <Link to="https://www.citizenscience.org/get-involved/working-groups/data-and-metadata-working-group/">Data & Metadata</Link>.
-        Our international organization represents over 2k diffrent citizen science projects with over 1M volunteers. We welcome a diverse group of indivuals & orgnaizations! To help contribute to our standard, <Link to={useBaseUrl('docs/contribute')}>please read this guide.</Link></div>
+        Our international organization represents over 2k different citizen science projects with over 1M volunteers. We welcome a diverse group of individuals & organizations! To help contribute to our standard, <Link to={useBaseUrl('docs/contribute')}>please read this guide.</Link></div>
         </div>
       </main>
     </Layout>

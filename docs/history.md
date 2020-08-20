@@ -1,7 +1,7 @@
 ---
 id: history
 title: History
-description: A history of how the PPSR was formed
+description: A history of how the PPSR-Core was formed
 ---
 During the fall of 2013, organizations supporting citizen science convened in Albuquerque, NM and Philadelphia, PA to discuss how to best share information about the growing number of citizen science, or public participation in scientific research (PPSR), projects. These early meetings were supported by the DataONE PPSR Working Group and SciStarter. Attendees represented databases of citizen science projects compiled by SciStarter, CitSci.org, the Cornell Lab of Ornithology, and the Wilson Center.
 
@@ -17,7 +17,7 @@ In 2016, the European Commission Joint Research Centre (JRC) invited 20 internat
 
 During the 2018 European Citizen Science conference in Geneva, Switzerland, a workshop was held in which matters relating to governance of citizen science data and metadata standards, in particular the PPSR-Core, were discussed. This resulted in the group collectively discussing and making amendments to a draft document tabled by Luigi Ceccaroni, and it's subsequent publishing as the "Geneva Declaration on Citizen Science Data and Metadata Standards".
 
-Amongst other things, this document provides a consensus basis for the establishment of a Governance Committee for the PPSR-Core, as well as the initial membership of that Committee and some broad general principles for consideration of amendments to the PPSR-Core standard. However, it does not go further to deal with the operating and decision-making frameworks by which the Committee should operate, including how to authorize amendment proposals into the cannonical version of the standard. Some of these matters have since been addressed through collaborative discussions of the Working Group.
+Amongst other things, this document provides a consensus basis for the establishment of a Governance Committee for the PPSR-Core, as well as the initial membership of that Committee and some broad general principles for consideration of amendments to the PPSR-Core standard. However, it does not go further to deal with the operating and decision-making frameworks by which the Committee should operate, including how to authorize amendment proposals into the canonical version of the standard. Some of these matters have since been addressed through collaborative discussions of the Working Group.
 
 ---
 The above content is largely taken from the introductory chapter of Bowser A., Brenton P., Stevenson R., Newman G., Schade S., Bastin L., Parker A. and Oliver, J. (2017) [“Citizen Science Association Data &Metadata Working Group: Report from CSA and Future Outlook.”(https://www.wilsoncenter.org/article/citizen-science-association-data-metadata-working-group-report-csa-2017-and-future-outlook)] Workshop Report. Woodrow Wilson International Center for Scholars, Washington, DC, 2017.

@@ -1,7 +1,7 @@
 ---
 id: technical
 title: Technical
-description: How the PPSR website was buildt
+description: How the PPSR website was built
 ---
 
 This website is hosted for free by [GitHub Pages](https://docs.github.com/en/github/working-with-github-pages) which is a static site hosting solution. The scaffolding for this site is based on [Docusaurus Version 2.0](https://v2.docusaurus.io/docs/) which takes Markdown and JavaScript files and generates static HTML.
@@ -19,7 +19,7 @@ Please direct questions about the technical underpinnings of this site to Brando
     - **.json** used to store raw data
 
 ### Folder Structure
-The site follows the same standard [Docusaurus](https://v2.docusaurus.io/docs/creating-pages) strucutre.
+The site follows the same standard [Docusaurus](https://v2.docusaurus.io/docs/creating-pages) structure.
 
 ```jsx title="Commonly changed files"
 /root
