@@ -101,6 +101,11 @@ module.exports = {
           ],
         },
       ],
+      logo: {
+        alt: 'CSA Logo',
+        src: 'img/csalogo192.png',
+        href: 'https://www.citizenscience.org/',
+      },
       copyright: `Copyright © ${new Date().getFullYear()} Citizen Science Assocaition`,
     },
     prism: {
@@ -113,12 +118,15 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          // It is recommended to set document id as docs home page (`docs/` path).
+          path: 'docs',
           homePageId: 'overview',
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl:
             'https://github.com/BBudnicki/docusaurus/edit/master/',
+            showLastUpdateAuthor: true,
+            showLastUpdateTime: true,
+            //remarkPlugins: [require('./src/plugins/remark-npm2yarn')],
+
         },
         blog: {
           showReadingTime: true,
