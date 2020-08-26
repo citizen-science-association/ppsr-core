@@ -28,3 +28,7 @@
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+.table-condensed{
+  font-size: 0.75rem;
+  td{vertical-align: top;}
+}
