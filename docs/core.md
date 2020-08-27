@@ -18,7 +18,12 @@ This graphically describes the relationships between the primary class entities 
 
 **[current approved version: 2.0.0]**
 
- ![](/img/core-erd-v2.png)
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+<img
+  alt="Docusaurus with Keytar"
+  src={useBaseUrl('img/core-erd-v2.png')}
+/>;
 
 
 ## Core Attributes

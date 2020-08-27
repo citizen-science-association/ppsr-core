@@ -10,6 +10,14 @@ description: Schema for Datasets in PPSR
 
 **[current approved version: 2.0.0]**
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+<img
+  alt="Docusaurus with Keytar"
+  src={useBaseUrl('img/dataset-erd-v2.png')}
+/>;
+
+
 ## Core Attributes
 This is a tabular representation of the DMM core model attributes and their definitions. 
 

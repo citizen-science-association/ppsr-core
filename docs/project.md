@@ -19,13 +19,19 @@ This graphically describes the relationships between the class entities in the p
 
 **[current approved version: 2.0.0]**
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+<img
+  alt="Docusaurus with Keytar"
+  src={useBaseUrl('img/project-erd-v2.png')}
+/>;
 
 ## Core Attributes
 This table includes the required fields. This is a tabular representation of the PMM core model attributes and their definitions. 
 
 **[current approved version: 2.0.0]**
 
-<table class="table table-bordered table-hover table-condensed">
+<table className="table table-bordered table-hover table-condensed">
 <thead><tr><th title="Field #1">Entity</th>
 <th title="Field #2">Attribute or Entity Name</th>
 <th title="Field #3">Description</th>
