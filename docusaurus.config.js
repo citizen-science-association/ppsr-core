@@ -19,7 +19,7 @@ module.exports = {
         {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: 'The Core',
+          label: 'Documents',
           position: 'left',
         },
         {
@@ -35,11 +35,6 @@ module.exports = {
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
-        {to: 'schema',
-          activeBasePath: 'schema',
-          label: 'Schema',
-          position: 'left'
-        },
         {
           href: 'https://github.com/BBudnicki/docusaurus',
           label: 'GitHub',
