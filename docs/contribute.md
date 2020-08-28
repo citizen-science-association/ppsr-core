@@ -6,7 +6,7 @@ description: Help build PPSR Core
 ---
 
 
-We welcome your contributions to PPSR Core. This site is maintained by a diverse group of volunteers through the Citizen Science Association Data & Meta Data working group. This website serves as the canonical version. We keep track of our work within GitHub (no developer experience required). Proposed changes are made through GitHub pull requests and through the issue tracker. When our workgroup meets we review the pull requests to make decisions on inclusion within PPSR core.
+We welcome your contributions to PPSR Core. This site is maintained by a diverse group of volunteers through the Citizen Science Association [Data & Meta Data Working Group](https://www.citizenscience.org/get-involved/working-groups/data-and-metadata-working-group/). This website serves as the canonical version. We keep track of our work within GitHub (no developer experience required). Proposed changes are made through GitHub pull requests and through the issue tracker. When our workgroup meets we review the pull requests to make decisions on inclusion within PPSR core.
 
 **Thank you to all our contributors!**
 
@@ -35,8 +35,9 @@ Examples
 ```
 Added Living Atlas example to Project
 
-Living atlas uses this schema. We recieved permission to use them as an example of a project.
+Living atlas uses this schema. We received permission to use them as an example of a project.
 ```
+
 ```
 Fixed typos on homepage
 ```
@@ -59,7 +60,8 @@ Minor issues & questions may be reported through the GitHub issue tracker. We us
 ## Data MetaData meetings
 
 
-Our working group frequently meets to review changes. To join our mailing list and get involoved with meetings please contact 
+Our working group frequently meets to review changes. To join our mailing list and get involved with meetings please contact:
+
 ```
 data_cochair@citizenscience.org
 ```

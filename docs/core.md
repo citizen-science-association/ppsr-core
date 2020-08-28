@@ -1,16 +1,14 @@
 ---
 id: core
-title: Core
+title: Core Data Model
+sidebar_label: Core
 description: Schema for the Core of PPSR
 
 ---
-Core is a data model that glues Projects, Datasets, and Observations together. As a central object, it is required for complete implement of this standard. 
+**C**ore **D**ata **M**odel **(CDM)** is a data model that glues Projects, Datasets, and Observations together. As a central object, it is required for complete implement of this standard. 
 
 :::caution
 This is the extent of the CDM Core schema. Additional attributes required in the programOrCampaign entity for any given implementation should be considered as extensions to this schema.
-:::
-:::info
-Previous documentation referred to this as the **C**ore **D**ata **M**odel **(CDM)**. This is purely a change in naming convention
 :::
 
 ## Entity relationship diagram

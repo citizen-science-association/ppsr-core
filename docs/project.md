@@ -1,17 +1,14 @@
 ---
 id: project
-title: Project
+title: Project Metadata Model
+sidebar_label: Project
 description: Schema for Projects in PPSR
 
 ---
-Project is a Metadata Model that describes projects. Projects are defined as "a coordinated cluster of citizen science and data. Information that describes the context and purpose of activities.
+**P**roject **M**metadata **M**model **(PMM)** is a Metadata Model that describes projects. Projects are defined as:"A coordinated cluster of citizen science and data. Information that describes the context and purpose of activities".
 
 :::tip Did you know
 This model is already being used to share data between: [SciStarter.org](https://scistarter.org/), [Australian Living Atlas](https://www.ala.org.au/), [CitSci.org](https://www.citsci.org/), & [CitizenScience.gov](https://www.citizenscience.gov/)
-:::
-
-:::info
-Previous documentation referred to this as the **P**roject **M**metadata **M**model **(PMM)**. This is purely a change in naming convention
 :::
 
 ## Entity relationship diagram

@@ -8,6 +8,9 @@ This website is hosted for free by [GitHub Pages](https://docs.github.com/en/git
 
 Please direct questions about the technical underpinnings of this site to Brandon Budnicki.
 
+:::tip GIT Training
+If you are not familiar with GIT we recommend playing [Learn Git Branching](https://learngitbranching.js.org/) to learn the fundamentals in an interactive way (2 hours). Additionally the [The GitHub GIT Cheat Sheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet/) covers common commands (20 minutes)
+:::
 
 ### Main file types
 - Markdown - [Docusaurus version](https://v2.docusaurus.io/docs/markdown-features/)
@@ -39,23 +42,34 @@ This software can be run locally on your machine for testing purposes or creatin
 ### Prerequisite Software
 #### Required
 These requirements are the same for all [Docusaurus](https://v2.docusaurus.io/docs/installation) sites
-- [GIT-SCM](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) to clone, merge, and submit pull requests
-    - run "git --version" in the terminal to check
-- [NPM](https://nodejs.org/en/download/)  Version > 10.15.1 to build the software and run locally
-    - run "node -v" in the terminal to see what version you have
-- A plaintext editor for exiting files.
+- [GIT-SCM](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) to clone, merge, and submit pull requests. To check for this software run this command from the terminal
+
+        git --version
+
+- [NPM](https://nodejs.org/en/download/)  Version > 10.15.1 to build the software and run locally. To check for this software run this command from the terminal
+
+        node -v
+
+- A plaintext editor for exiting files. **Do not use Microsoft Word** Ses below for recommendation
 
 #### Recommended
 We recommend the following additional tools to aid in content editing & ease of use. Install these if you are not experienced with software development, they will make your life easier.
-- [Visual Studio Code](https://code.visualstudio.com/) available for free on Windows, OSx, or Linux
+- [Visual Studio Code](https://code.visualstudio.com/) a plain text editor and development environment available for free on Windows, OSx, or Linux
 - [GitHub Desktop](https://desktop.github.com/) a friendly user interface for GIT-SCM
 - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) a GitHub management extension for VS Code.
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) extension for VS Code
 
 ### Step by Step
 After installing the Prerequisite Software:
-1. Clone the repository from github.com/BBudnicki/docusaurus
-2. Open a terminal / command line in the root folder of your repository and run "npm run start"
+1. Clone the repository from github.com/BBudnicki/docusaurus using the command line or GitHub Desktop
+
+        git clone https://github.com/BBudnicki/docusaurus.git
+        
+
+2. Open a terminal / command line in the root folder of your repository and run 
+
+        npm run start
+
 3. Your browser should automatically open to http://localhost:3000/docusaurus/
 
 :::info
@@ -63,9 +77,6 @@ Any changes you save will immediately cause the page to refresh and be visible
 :::
 
 
-```
-npm run start
-```
 
 ---
 ## Publishing Process
@@ -78,6 +89,10 @@ GIT_USER=<GITHUB_USERNAME> npm run deploy
 ```sh title="windows"
 cmd /C "set GIT_USER=<GITHUB_USERNAME>&& npm run deploy"
 ```
+
+:::info
 Changes should appear within 30 seconds. Be sure to do a hard refresh of the page, locally cache files from the public site might show the old site.
+:::
+
 
 

@@ -1,10 +1,12 @@
 ---
 id: dataset
-title: Dataset
+title: Dataset Metadata Model
+sidebar_label: Dataset
 description: Schema for Datasets in PPSR
 
 ---
-# Dataset Metadata Model (DMM)
+**D**ataset **M**metadata **M**model **(PMM)** is a Metadata Model that describes a collection of observations. It helps helps researchers understand the dataset including: the period of time the data represent, the methodology and sampling protocol used for collection, access rights and licensing, and how to site the dataset in research.
+
 ## Entity Relationship Diagram
  This graphically describes the relationships between the class entities in the dataset metadata model. 
 
