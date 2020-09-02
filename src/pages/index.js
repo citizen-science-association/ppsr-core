@@ -8,8 +8,19 @@ import styles from './styles.module.css';
 
 const features = [
   {
+    title: <>Core</>,
+    imageUrl: 'img/layer-group.svg',
+    color: "#123123",
+    description: (
+      <>
+       Ties all elements of the standard together into one data model
+      </>
+    ),
+  },
+  {
     title: <>Project</>,
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    imageUrl: 'img/hands-helping.svg',
+    color: "#123123",
     description: (
       <>
         Describes the purpose for the research, who is coordinating it, and other contextual information about the project
@@ -18,7 +29,8 @@ const features = [
   },
   {
     title: <>Data Set</>,
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    imageUrl: 'img/satellite.svg',
+    color: "#123123",
     description: (
       <>
         Describes how observations are collected, how that data may be used, and other information on the data as a whole.
@@ -27,7 +39,8 @@ const features = [
   },
   {
     title: <>Observation<i className="fas fa-map-marker"></i></>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    imageUrl: 'img/glasses.svg',
+    color: "#123123",
     description: (
       <>
         Describes the structure of individual observations including: location, date, observer, and attributes specific to the research.
@@ -39,7 +52,7 @@ const features = [
 function Feature({imageUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={clsx('col col--4', styles.feature)}>
+    <div className={clsx('col col--3', styles.feature)}>
       {imgUrl && (
         <div className="text--center">
           <img className={styles.featureImage} src={imgUrl} alt={title} />
@@ -77,9 +90,8 @@ function Home() {
       <main>
         <div className="container">
           <div className="padding-vert--lg">
-        PPSR-Core is a set of global, transdisciplinary data and metadata standards describing for use in &nbsp;
-        <strong>P</strong>ublic <strong>P</strong>articipation in <strong>S</strong>cientific <strong>R</strong>esearch <strong>(PPSR)</strong> projects.  
-        These standards are united, supported, and underlined by a common framework illustrating how information is structured within the citizen science domain.
+        <strong>PPSR Core</strong> is a set of global, transdisciplinary data and metadata standards for use in &nbsp;
+        <strong>P</strong>ublic <strong>P</strong>articipation in <strong>S</strong>cientific <strong>R</strong>esearch projects. These standards are united, supported, and underlined by a common framework illustrating how information is structured within the citizen science domain. This allows data to be used across platforms and projects in a consistent manner, furthering the research goals of the scientific community.
           </div>
         </div>
 

@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'PPSR Data Standard',
+  title: 'PPSR Core',
   tagline: 'A Data Standard for Public Participation in Scientific Research',
   url: 'https://bbudnicki.github.io',
   baseUrl: '/docusaurus/',
@@ -29,7 +29,7 @@ module.exports = {
           position: 'left',
         },
         {
-          to: 'docs/about',
+          to: 'docs/team',
           activeBasePath: 'docs/about',
           label: 'About',
           position: 'left',

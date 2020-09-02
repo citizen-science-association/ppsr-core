@@ -16,7 +16,7 @@ We welcome your contributions to PPSR Core. This site is maintained by a diverse
 
 ## Contributing through GitHub
 
-This standard is maintained in a GitHub repository. Don't worry, deep of GitHub is not required, **you don't have to be a programer**.
+This standard is maintained in a GitHub repository. Don't worry, deep understanding of GitHub is not required, **you don't have to be a programer**.
 
 You will need to be logged into a free [GitHub](https://github.com/) account to make changes. We maintain a [technical page](technical) if you want to help with more the technical aspects or understand how this site was built.
 

@@ -1,32 +1,43 @@
 ---
 id: project
 title: Project Metadata Model
-sidebar_label: Project
+sidebar_label: Project (PMM)
 description: Schema for Projects in PPSR
 
 ---
-**P**roject **M**metadata **M**model **(PMM)** is a Metadata Model that describes projects. Projects are defined as:"A coordinated cluster of citizen science and data. Information that describes the context and purpose of activities".
+A Project is an organized effort carefully designed to achieve a particular goal. In the context of PPSR Core; projects leverage public collection of observations for research. As a coordinated cluster of citizen science activities it is the main organizing unit.
+
+The **P**roject **M**metadata **M**model **(PMM)** is a Metadata Model that describes projects. It includes metadata which describes the context and purpose of activities. Key items include:
+- Project Name
+- Description
+- Aim
+- Start Date
+- End Date
+
 
 :::tip Did you know
 This model is already being used to share data between: [SciStarter.org](https://scistarter.org/), [Australian Living Atlas](https://www.ala.org.au/), [CitSci.org](https://www.citsci.org/), & [CitizenScience.gov](https://www.citizenscience.gov/)
 :::
 
-## Entity relationship diagram
-This graphically describes the relationships between the class entities in the project metadata model. 
-
+## Entity Relationship Diagram
 **[current approved version: 2.0.0]**
+
+The Project ERD describes the relationships between class entities in the project metadata model. Each project contains a set of [Core Attributes](#core-attributes) which represent the core terms associated with a project. The [Extension Attributes](#extension-attributes) are optional terms associated with a project.  
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <img
-  alt="Docusaurus with Keytar"
+  alt="Figure 1 Project Metadata Model Entity Relationship Diagram"
   src={useBaseUrl('img/project-erd-v2.png')}
-/>;
+/>
+
 
 ## Core Attributes
-This table includes the required fields. This is a tabular representation of the PMM core model attributes and their definitions. 
-
 **[current approved version: 2.0.0]**
+
+Core attributes are the main fields associated with a project. The table below lists all Core Attributes; their field name & a description of how it is used.
+
+Many of the core terms are mandatory. Every project instance is required to have an entry in this field.
 
 <table className="table table-bordered table-hover table-condensed">
 <thead><tr><th title="Field #1">Entity</th>
@@ -372,10 +383,10 @@ This table includes the required fields. This is a tabular representation of the
 </tr>
 </tbody></table>
 
-## Extended Attributes
-  This is a tabular representation of the PMM extension model attributes and their definitions. Not all systems will have this information, but you are encouraged to include it. 
-
+## Extension Attributes
 **[current approved version: 2.0.0]**
+
+Extension attributes are the fields whose inclusion is not mandatory for all systems that are compliant with PPSR Core. The table below lists all Core Attributes; their field name, a description of how it is used. Every system is encouraged to include these fields to ensure greater interoperability between systems.
 
 <table className="table table-bordered table-hover table-condensed">
 <thead><tr><th title="Field #1">Entity</th>
@@ -722,9 +733,9 @@ This table includes the required fields. This is a tabular representation of the
 </tbody></table>
 
 ## Vocabulary
-The vocabular defined enumerations for attributes above. These are controlled lists of defined terms for use in relevant vocabulary attributes in the PMM. These terms may be used either as provided in full or as a reduced subset relevant to the purpose for which they are being used. They should not be modified or augmented with additional terms as this would prevent shareability and effective aggregation. 
-
 **[current approved version: 2.0.0]**
+
+The Vocabulary for Project defines enumerations for attributes above. These are controlled lists of defined terms. These terms may be used either as provided in full or as a reduced subset relevant to the purpose for which they are being used. They should not be modified or augmented with additional terms as this would prevent shareability and effective aggregation. 
 
 <table className="table table-bordered table-hover table-condensed">
 <thead><tr><th title="Field #1">Entity</th>
