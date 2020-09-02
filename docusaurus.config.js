@@ -50,8 +50,12 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Core',
+              label: 'Overview',
               to: 'docs/',
+            },
+            {
+              label: 'Core',
+              to: 'docs/core',
             },
             {
               label: 'Project',

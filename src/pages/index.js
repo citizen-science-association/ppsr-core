@@ -6,11 +6,14 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLayerGroup, faHandsHelping, faSatellite, faGlasses } from '@fortawesome/free-solid-svg-icons'
+
 const features = [
   {
     title: <>Core</>,
-    imageUrl: 'img/layer-group.svg',
-    color: "#123123",
+    icon: faLayerGroup,
+    color: "#FFAF4C",
     description: (
       <>
        Ties all elements of the standard together into one data model
@@ -19,8 +22,8 @@ const features = [
   },
   {
     title: <>Project</>,
-    imageUrl: 'img/hands-helping.svg',
-    color: "#123123",
+    icon: faHandsHelping,
+    color: "#2439B3",
     description: (
       <>
         Describes the purpose for the research, who is coordinating it, and other contextual information about the project
@@ -29,8 +32,8 @@ const features = [
   },
   {
     title: <>Data Set</>,
-    imageUrl: 'img/satellite.svg',
-    color: "#123123",
+    icon: faSatellite,
+    color: "#405CFF",
     description: (
       <>
         Describes how observations are collected, how that data may be used, and other information on the data as a whole.
@@ -38,9 +41,9 @@ const features = [
     ),
   },
   {
-    title: <>Observation<i className="fas fa-map-marker"></i></>,
-    imageUrl: 'img/glasses.svg',
-    color: "#123123",
+    title: <>Observation</>,
+    icon: faGlasses,
+    color: "#47B39B",
     description: (
       <>
         Describes the structure of individual observations including: location, date, observer, and attributes specific to the research.
@@ -49,16 +52,12 @@ const features = [
   },
 ];
 
-function Feature({imageUrl, title, description}) {
-  const imgUrl = useBaseUrl(imageUrl);
+function Feature({title, description, icon, color}) {
+
   return (
     <div className={clsx('col col--3', styles.feature)}>
-      {imgUrl && (
-        <div className="text--center">
-          <img className={styles.featureImage} src={imgUrl} alt={title} />
-        </div>
-      )}
-      <h3>{title}</h3>
+      <FontAwesomeIcon icon={icon}  size="6x" alt={title} color={color} className={styles.featureImage} />
+      <h3 className={clsx(styles.featuresHeader)}>{title}</h3>
       <p>{description}</p>
     </div>
   );
@@ -109,9 +108,7 @@ function Home() {
         <div className="container">
           <div className="padding-vert--lg">
           <h2><Link to={useBaseUrl('docs/about')}>About</Link></h2>
-        PPSR Core is maintained by the Citizen Science Association <Link to="https://www.citizenscience.org/">citizenscience.org</Link> working 
-        group for <Link to="https://www.citizenscience.org/get-involved/working-groups/data-and-metadata-working-group/">Data & Metadata</Link>.
-        Our international organization represents over 2k different citizen science projects with over 1M volunteers. We welcome a diverse group of individuals & organizations! To help contribute to our standard, <Link to={useBaseUrl('docs/contribute')}>please read this guide.</Link></div>
+        PPSR Core is maintained by the Citizen Science Association <Link to="https://www.citizenscience.org/">citizenscience.org</Link> working group for <Link to="https://www.citizenscience.org/get-involved/working-groups/data-and-metadata-working-group/">Data & Metadata</Link>. Our international organization represents over 2K different citizen science projects with over 1M volunteers. We welcome a diverse group of individuals & organizations! To help contribute to our standard, <Link to={useBaseUrl('docs/contribute')}>please read this guide.</Link></div>
         </div>
       </main>
     </Layout>

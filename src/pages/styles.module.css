@@ -29,10 +29,9 @@
   align-items: center;
   padding: 2rem 0;
   width: 100%;
+  text-align: center;
+}
+.featuresHeader {
+  margin-top: 16px;
 }
 
-.featureImage {
-  height: 100px;
-  width: 100px;
-  margin-bottom: 1em;
-}

@@ -1,7 +1,7 @@
 ---
 id: core
 title: Core Data Model
-sidebar_label: Core
+sidebar_label: Core (CDM)
 description: Schema for the Core of PPSR
 
 ---
