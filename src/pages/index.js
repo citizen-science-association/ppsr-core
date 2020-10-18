@@ -90,7 +90,7 @@ function Home() {
         <div className="container">
           <div className="padding-vert--lg">
         <strong>PPSR Core</strong> is a set of global, transdisciplinary data and metadata standards for use in &nbsp;
-        <strong>P</strong>ublic <strong>P</strong>articipation in <strong>S</strong>cientific <strong>R</strong>esearch projects. These standards are united, supported, and underlined by a common framework illustrating how information is structured within the citizen science domain. This allows data to be used across platforms and projects in a consistent manner, furthering the research goals of the scientific community.
+        <strong>P</strong>ublic <strong>P</strong>articipation in <strong>S</strong>cientific <strong>R</strong>esearch <strong>(Citizen Science)</strong> projects. These standards are united, supported, and underlined by a common framework illustrating how information is structured within the citizen science domain. This allows data to be used across platforms and projects in a consistent manner, furthering the research goals of the scientific community.
           </div>
         </div>
 

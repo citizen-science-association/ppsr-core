@@ -1,6 +1,6 @@
 module.exports = {
   title: 'PPSR Core',
-  tagline: 'A Data Standard for Public Participation in Scientific Research',
+  tagline: 'A Data Standard for Public Participation in Scientific Research (Citizen Science)',
   url: 'https://bbudnicki.github.io',
   baseUrl: '/docusaurus/',
   onBrokenLinks: 'throw',
@@ -54,8 +54,8 @@ module.exports = {
               to: 'docs/',
             },
             {
-              label: 'Core',
-              to: 'docs/core',
+              label: 'Common',
+              to: 'docs/common',
             },
             {
               label: 'Project',

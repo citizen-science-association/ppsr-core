@@ -2,7 +2,7 @@
 id: dataset
 title: Dataset Metadata Model
 sidebar_label: Dataset (DMM)
-description: Schema for Datasets in PPSR
+description: Dataset Metadata Model (DDM)
 
 ---
 A Dataset is a collection of data gathered by a project. In the context of PPSR Core; datasets represent the observations collected by a given project from the community.

@@ -2,13 +2,13 @@
 id: observation
 title: Observation Data Model
 sidebar_label: Observation (ODM)
-description: Schema for Observations in PPSR
+description: Observation Data Model (ODM)
 
 ---
 
 An observation is a collection of information recorded based on something that has been seen, heard, or noticed. In the context of PPSR Core; observations represent the information collected by the public.
 
-The **O**bservation **D**ata **M**odel describes the structure of observational records collected as part of Public Participation in Scientific Research. It is the basic unit of research information and includes:
+The **O**bservation **D**ata **M**odel describes the structure of observational records collected as part of Public Participation in Scientific Research (Citizen Science). It is the basic unit of research information and includes:
 - Location
 - Time
 - Additional attributes specific to the dataset

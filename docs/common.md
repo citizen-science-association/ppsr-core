@@ -1,14 +1,14 @@
 ---
-id: core
-title: Core Data Model
-sidebar_label: Core (CDM)
-description: Schema for the Core of PPSR
+id: common
+title: Common Data Model
+sidebar_label: Common (CDM)
+description: Common Data Model (CDM)
 
 ---
-**C**ore **D**ata **M**odel **(CDM)** is a data model that glues Projects, Datasets, and Observations together. As a central object, it is required for complete implement of this standard. 
+**C**ommon **D**ata **M**odel **(CDM)** is a data model that glues Projects, Datasets, and Observations together. As a central object, it is required for complete implement of this standard. 
 
 :::caution
-This is the extent of the CDM Core schema. Additional attributes required in the programOrCampaign entity for any given implementation should be considered as extensions to this schema.
+This is the extent of the common schema. Additional attributes required in the programOrCampaign entity for any given implementation should be considered as extensions to this schema.
 :::
 
 ## Entity relationship diagram
@@ -20,7 +20,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <img
   alt="Docusaurus with Keytar"
-  src={useBaseUrl('img/core-erd-v2.png')}
+  src={useBaseUrl('img/common-erd-v2.png')}
 />;
 
 

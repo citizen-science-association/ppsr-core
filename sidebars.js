@@ -1,6 +1,6 @@
 module.exports = {
   coreSidebar: {
-    Documentation: ['overview','core','project','dataset','observation',],
+    Documentation: ['overview','common','project','dataset','observation',],
     About: ['team','contribute','history','technical'],
   },
 };

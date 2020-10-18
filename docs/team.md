@@ -25,7 +25,7 @@ Director, Shapiro Design Lab, University of Michigan Library
 
 CSA Board of Directors, Colorado State University, CitSci.org
 
-## PPSR-Core Task Group Members
+## PPSR Core Task Group Members
 -	Anne Bowser, CSA Board of Directors, The Wilson Center
 -	Greg Newman, CSA Board of Directors, Colorado State University, CitSci.org
 -	Justin Schell, Director, Shapiro Design Lab, University of Michigan Library

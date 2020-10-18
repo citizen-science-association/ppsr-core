@@ -4,7 +4,7 @@ title: Overview
 description: Overview of the PPSR Core standard
 
 ---
-PPSR-Core is a set of global, transdisciplinary data and metadata standards for **P**ublic **P**articipation in **S**cientific **R**esearch **(PPSR)**.  (Project Data Model, or PDM), datasets (Dataset Data Model, or DDM), and data (Observation Data Model, or ODM). These standards are united, supported, and underlined by a common framework, the PPSR-Core common data model (CDM), which illustrates how information is structured within the citizen science domain (figure 1).
+PPSR Core is a set of global, transdisciplinary data and metadata standards for **P**ublic **P**articipation in **S**cientific **R**esearch **(Citizen Science)**. This standard includes: Projects (**P**roject **D**ata **M**odel or **PDM**), Datasets (**D**ataset **D**ata **M**odel, or **DDM**), and Observations (**O**bservation **D**ata **M**odel, or **ODM**). These standards are united, supported, and underlined by a common framework, the **C**ommon **D**ata **M**odel (**CDM**), which illustrates how information is structured within the citizen science domain (figure 1).
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
