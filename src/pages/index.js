@@ -11,7 +11,8 @@ import { faLayerGroup, faHandsHelping, faSatellite, faGlasses } from '@fortaweso
 
 const features = [
   {
-    title: <>Core</>,
+    title: <>Common</>,
+    page: "common",
     icon: faLayerGroup,
     color: "#FFAF4C",
     description: (
@@ -22,6 +23,7 @@ const features = [
   },
   {
     title: <>Project</>,
+    page: "project",
     icon: faHandsHelping,
     color: "#2439B3",
     description: (
@@ -32,6 +34,7 @@ const features = [
   },
   {
     title: <>Data Set</>,
+    page: "dataset",
     icon: faSatellite,
     color: "#405CFF",
     description: (
@@ -42,6 +45,7 @@ const features = [
   },
   {
     title: <>Observation</>,
+    page: "observation",
     icon: faGlasses,
     color: "#47B39B",
     description: (
@@ -52,10 +56,11 @@ const features = [
   },
 ];
 
-function Feature({title, description, icon, color}) {
+function Feature({title, description, icon, color, page}) {
 
   return (
     <div className={clsx('col col--3', styles.feature)}>
+      <Link to={useBaseUrl(`docs/${page}`)}></Link>
       <FontAwesomeIcon icon={icon}  size="6x" alt={title} color={color} className={styles.featureImage} />
       <h3 className={clsx(styles.featuresHeader)}>{title}</h3>
       <p>{description}</p>
