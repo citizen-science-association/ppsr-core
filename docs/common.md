@@ -21,7 +21,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <img
   alt="Docusaurus with Keytar"
-  src={useBaseUrl('img/common-erd-v2.png')}
+  src={useBaseUrl('img/common-erd-2020-0.png')}
 />;
 
 

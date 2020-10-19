@@ -10,7 +10,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <img
   alt="Docusaurus with Keytar"
-  src={useBaseUrl('img/ppsr-overview-v2.png')}
+  src={useBaseUrl('img/ppsr-overview-2020-0.png')}
 />;
 
 ## Rationale

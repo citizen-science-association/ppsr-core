@@ -27,7 +27,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <img
   alt="Figure 1 Dataset Entity Relationship Diagram"
-  src={useBaseUrl('img/dataset-erd-v2.png')}
+  src={useBaseUrl('img/dataset-erd-2020-0.png')}
 />;
 
 

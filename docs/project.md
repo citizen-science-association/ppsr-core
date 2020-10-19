@@ -37,7 +37,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <img
   alt="Figure 1 Project Metadata Model Entity Relationship Diagram"
-  src={useBaseUrl('img/project-erd-v2.png')}
+  src={useBaseUrl('img/project-erd-2020-0.png')}
 />
 
 
