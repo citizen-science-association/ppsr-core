@@ -3,6 +3,8 @@ id: project
 title: Project Metadata Model
 sidebar_label: Project (PMM)
 description: Schema for Projects in PPSR
+hide_table_of_contents: true
+
 
 ---
 A Project is an organized effort carefully designed to achieve a particular goal. In the context of PPSR Core; projects leverage public collection of observations for research. As a coordinated cluster of citizen science activities it is the main organizing unit.
@@ -16,11 +18,11 @@ The **P**roject **M**metadata **M**model **(PMM)** is a Metadata Model that desc
 
 
 :::tip Did you know
-This model is already being used to share data between: [SciStarter.org](https://scistarter.org/), [Australian Living Atlas](https://www.ala.org.au/), [CitSci.org](https://www.citsci.org/), & [CitizenScience.gov](https://www.citizenscience.gov/)
+This model is already being used to share data between: [SciStarter.org](https://scistarter.org/), [CitSci.org](https://www.citsci.org/), [Atlas of Living Australia - BioCollect](https://ala.org.au/biocollect/), & [CitizenScience.gov](https://www.citizenscience.gov/)
 :::
 
 ## Entity Relationship Diagram
-**[current approved version: 2.0.0]**
+**[current approved version: 2020.0]**
 
 The Project ERD describes the relationships between class entities in the project metadata model. Each project contains a set of [Core Attributes](#core-attributes) which represent the core terms associated with a project. The [Extension Attributes](#extension-attributes) are optional terms associated with a project.  
 
@@ -33,7 +35,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
 ## Core Attributes
-**[current approved version: 2.0.0]**
+**[current approved version: 2020.0]**
 
 Core attributes are the main fields associated with a project. The table below lists all Core Attributes; their field name & a description of how it is used.
 
@@ -384,9 +386,9 @@ Many of the core terms are mandatory. Every project instance is required to have
 </tbody></table>
 
 ## Extension Attributes
-**[current approved version: 2.0.0]**
+**[current approved version: 2020.0]**
 
-Extension attributes are the fields whose inclusion is not mandatory for all systems that are compliant with PPSR Core. The table below lists all Core Attributes; their field name, a description of how it is used. Every system is encouraged to include these fields to ensure greater interoperability between systems.
+Extension attributes are the fields whose inclusion is not mandatory for all systems that are compliant with PPSR Core. The table below lists all Extension Attributes; their field name, a description of how it is used. Every system is encouraged to include these fields to ensure greater interoperability between systems.
 
 <table className="table table-bordered table-hover table-condensed">
 <thead><tr><th title="Field #1">Entity</th>
@@ -733,7 +735,7 @@ Extension attributes are the fields whose inclusion is not mandatory for all sys
 </tbody></table>
 
 ## Vocabulary
-**[current approved version: 2.0.0]**
+**[current approved version: 2020.0]**
 
 The Vocabulary for Project defines enumerations for attributes above. These are controlled lists of defined terms. These terms may be used either as provided in full or as a reduced subset relevant to the purpose for which they are being used. They should not be modified or augmented with additional terms as this would prevent shareability and effective aggregation. 
 

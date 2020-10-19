@@ -13,6 +13,17 @@ We welcome your contributions to PPSR Core. This site is maintained by a diverse
 
 ---
 
+## Data & Meta Data Meetings
+
+
+Our working group frequently meets to review changes. To join our mailing list and get involved with meetings please contact:
+
+```
+data_cochair@citizenscience.org
+```
+
+---
+
 
 ## Contributing through GitHub
 
@@ -54,17 +65,8 @@ Our schema and field definitions are maintained in this **google document**. Tha
 
 Minor issues & questions may be reported through the GitHub issue tracker. We use it to keep track of small tasks. For larger concerns, please join one of our meetings.
 
----
 
 
-## Data MetaData meetings
-
-
-Our working group frequently meets to review changes. To join our mailing list and get involved with meetings please contact:
-
-```
-data_cochair@citizenscience.org
-```
 
 
 

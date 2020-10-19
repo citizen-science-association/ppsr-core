@@ -3,6 +3,8 @@ id: team
 title: The Team
 description: Learn about the creators of PPSR core
 ---
+## Governance
+[The Geneva Declaration on Citizen Science Data and Metadata Standards](https://www.cs-eu.net/news/workshop-report-wg-5-geneva-declaration-citizen-science-data-and-metadata-standards) provides a consensus basis for the establishment of a Governance Committee for the PPSR-Core, as well as the initial membership of that Committee and some broad general principles for consideration of amendments to the PPSR-Core standard.
 
 ## Founding Co-chairs
 

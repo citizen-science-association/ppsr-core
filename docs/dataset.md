@@ -3,18 +3,19 @@ id: dataset
 title: Dataset Metadata Model
 sidebar_label: Dataset (DMM)
 description: Dataset Metadata Model (DDM)
+hide_table_of_contents: true
 
 ---
 A Dataset is a collection of data gathered by a project. In the context of PPSR Core; datasets represent the observations collected by a given project from the community.
 
-The **D**ataset **M**metadata **M**model **(DMM)** is a metadata model that describes a collection of observations. It helps helps researchers understand a group of observations:
+The **D**ataset **M**etadata **M**model **(DMM)** is a metadata model that describes a collection of observations. It helps helps researchers understand a group of observations:
 - Period of time the observations represent
 - Methodology and sampling protocol used for collection
 - Access rights and licensing
 - How to bibliographic cite in research publications or articles
 
 ## Entity Relationship Diagram
-**[current approved version: 2.0.0]**
+**[current approved version: 2020.0]**
 
 The Dataset ERD describes the relationships between class entities in the Dataset Metadata Model. Each dataset contains a set of [Core Attributes](#core-attributes) which represent the core terms associated with a project. The [Extension Attributes](#extension-attributes) are optional terms associated with a project.
  
@@ -28,7 +29,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
 ## Core Attributes
-**[current approved version: 2.0.0]**
+**[current approved version: 2020.0]**
 
 Core attributes are the main fields associated with a dataset. The table below lists all Core Attributes; their field name & a description of how it is used.
 
@@ -280,9 +281,9 @@ Many of the core terms are mandatory. Every dataset instance is required to have
 </tbody></table>
 
 ## Extension attributes
-**[current approved version: 2.0.0]**
+**[current approved version: 2020.0]**
 
-Extension attributes are the fields whose inclusion is not mandatory for all systems that are compliant with PPSR Core. The table below lists all Core Attributes; their field name, a description of how it is used. Every system is encouraged to include these fields to ensure greater interoperability between systems.
+Extension attributes are the fields whose inclusion is not mandatory for all systems that are compliant with PPSR Core. The table below lists all Extension Attributes; their field name, a description of how it is used. Every system is encouraged to include these fields to ensure greater interoperability between systems.
 
 <table className="table table-bordered table-hover table-condensed">
 <thead><tr><th title="Field #1">Entity</th>
@@ -539,7 +540,7 @@ Extension attributes are the fields whose inclusion is not mandatory for all sys
 </tbody></table>
 
 ## Vocabulary
-**[current approved version: 2.0.0]**
+**[current approved version: 2020.0]**
 
 The Vocabulary for Dataset defines enumerations for attributes above. These are controlled lists of defined terms. These terms may be used either as provided in full or as a reduced subset relevant to the purpose for which they are being used. They should not be modified or augmented with additional terms as this would prevent shareability and effective aggregation. 
 
