@@ -15,7 +15,12 @@ The **O**bservation **D**ata **M**odel describes the structure of observational 
 
 This is still a work in progress and the Data & Metadata working group is sorting through existing platforms and projects to find commonalities. Please [contact us](contribute) to get involved.
 
+## Information Sharing Example
+Scientists and platform managers need to share scientific observations about the world. They need to do so to advance science and decision making. And they may also need to do so to leverage the unique strengths of various platforms to improve data quality. For example, a project on [CitSci.org](https://www.citsci.org/) might ask its volunteers to collect species occurrence observations of a rare butterfly. But they also need to crowd source the identification of this specific rare butterfly. Imagine their delight when they learn they can automatically share observations submitted to their CitSci project and have these appear on [iNaturalist](https://www.inaturalist.org/) and then have this online community verify the taxonomic identity of the butterfly observation to make this observation become deemed as “Research Grade.” Then, their delight grows when they learn that all Research Grade observations are automatically shared with the [Global Biodiversity Information Facility (GBIF)](https://www.gbif.org/). Now we have observations submitted to one platform becoming verified on another, sent back to the original platform so it can be represented as Research Grade, and also being sent to the go-to-source for global biodiversity data worldwide.
+
+## Future Work
 It is intended to comprise a series of domain appropriate sets of attributes and/or schemas which are required for effective and useful aggregation of data for scientific use. An example of this would be the Darwin Core standard used for global biodiversity occurrence data. Other domains also have their specific standards. The ODM will recommend application of relevant existing domain standards where they exist, develop new models where they don't, and will seek to identify and standardize common attributes across domains to enable multi-disciplinary aggregation of datasets on those attributes for cross-disciplinary analysis.
+
 
 <table className="table table-bordered table-hover table-condensed">
 <thead><tr><th title="Field #1">Suffix abbreviation</th>
