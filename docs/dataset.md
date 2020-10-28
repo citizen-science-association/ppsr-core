@@ -2,7 +2,7 @@
 id: dataset
 title: Dataset Metadata Model
 sidebar_label: Dataset (DMM)
-description: Dataset Metadata Model (DDM)
+description: Dataset Metadata Model (DMM)
 hide_table_of_contents: true
 
 ---
@@ -74,7 +74,7 @@ Many of the core terms are mandatory. Every dataset instance is required to have
 <tr>
 <td>activity</td>
 <td>datasetMetadataSchema</td>
-<td>The datasetMetadataSchema (DDM) describes the metadata pertaining to the specific observationalDataSchema selected and it&#39;s associated data. There is a 1:1 relationship between the datasetMetadataSchema and the observationalDataSchema. The datasetMetadataSchema is consistent for all classes of observationalDataDomains. This is a class object.</td>
+<td>The datasetMetadataSchema (DMM) describes the metadata pertaining to the specific observationalDataSchema selected and it&#39;s associated data. There is a 1:1 relationship between the datasetMetadataSchema and the observationalDataSchema. The datasetMetadataSchema is consistent for all classes of observationalDataDomains. This is a class object.</td>
 <td>Class</td>
 <td>Mandatory</td>
 <td>1:1</td>

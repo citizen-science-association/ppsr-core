@@ -4,7 +4,12 @@ title: Overview
 description: Overview of the PPSR Core standard
 ---
 
-PPSR Core is a set of global, transdisciplinary data and metadata standards for **P**ublic **P**articipation in **S**cientific **R**esearch **(Citizen Science)**. This standard includes: Projects (**P**roject **D**ata **M**odel or **PDM**), Datasets (**D**ataset **D**ata **M**odel, or **DDM**), and Observations (**O**bservation **D**ata **M**odel, or **ODM**). These standards are united, supported, and underlined by a common framework, the **C**ommon **D**ata **M**odel (**CDM**), which illustrates how information is structured within the citizen science domain (figure 1).
+PPSR Core is a set of global, transdisciplinary data and metadata standards for **P**ublic **P**articipation in **S**cientific **R**esearch **(Citizen Science)**. This standard includes: 
+- Project Metadata Model or (**PMM**)
+- Dataset Metadata Model, (**DMM**)
+- Observation Data Model (**ODM**)
+
+These standards are united, supported, and underlined by a common framework, the Common Data Model (**CDM**), which illustrates how information is structured within the citizen science domain (figure 1).
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
@@ -16,6 +21,18 @@ src={useBaseUrl('img/ppsr-overview-2020-0.png')}
 ## Rationale
 
 Sharing information across databases maximizes everyone’s efforts, getting more “bang for the buck” out of information about citizen science projects everywhere. It leads to current, up-to-date, synchronized project lists and promotes a broader understanding of the global practice of citizen science.
+
+## How to Use
+PPSR-Core  may be used as individual component schemas, as partial combinations of schemas or in it’s entirety as a set of schemas coupled together by the [Common Data Model](/docs/common) schema. Your choice of configuration will be determined by the use case(s) applicable to your situation. 
+
+For example, if you already have a projects catalog, or are planning to develop one, the [Project Metadata Model](/docs/project) will be applicable for you. This may be sufficient if it is simply a stand-alone catalog to aid in the discovery and sharing of projects, but if you also want to provide information about datasets associated with projects you will also want to use the [Dataset Metadata Model](/docs/dataset) schema.
+
+If you are developing a single project web and/or mobile app to collect data, you’ll need to use the [PMM](/docs/project), [DMM](/docs/dataset) and domain-specific [ODM](/docs/observation) profile combination, coupled together in accordance with the [CDM](/docs/common) schema.
+
+If you currently operate or are planning to develop a platform for collecting data for multiple projects, then the full PPSR-Core schema will be applicable to you.
+
+The standard is currently only available in human-readable format on this website and it is recommended that you develop or retrofit your schema to reflect the architecture of the schema as published in this site. The PPSR-Core team is currently working on machine readable formats for download as JSON, JSON-LD, XML and RDF-S and these will be published on this website as they become available.
+
 
 ## Other Standards
 

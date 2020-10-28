@@ -9,12 +9,13 @@ hide_table_of_contents: true
 ---
 A Project is an organized effort carefully designed to achieve a particular goal. In the context of PPSR Core; projects leverage public collection of observations for research. As a coordinated cluster of citizen science activities it is the main organizing unit.
 
-The **P**roject **M**metadata **M**model **(PMM)** is a Metadata Model that describes projects. Project level metadata provides the organising framework and context for data collection and tasks associated with a project and allows projects to be discovered and accessed by locations, timeframes, themes, suitability, etc. It also enables project owners to explain to the world what their project is aiming to achieve and to encourage people to participate in it. It includes metadata which describes the context and purpose of activities. Key items include:
+The **P**roject **M**metadata **M**model **(PMM)** is a Metadata Model that describes projects. Project level metadata provides the organizing framework and context for data collection and tasks associated with a project and allows projects to be discovered and accessed by locations, time periods, themes, suitability, etc. It also enables project owners to explain to the world what their project is aiming to achieve and to encourage people to participate in it. It includes metadata which describes the context and purpose of activities. Key items include:
 
 - Title and description of the project
 - Ownership and contact information
 - Temporal range of the project
 - Spatial range of the project
+- Partners and collaborators
 - Funding, sponsorship and program alignment of the project
 - Public participation and engagement information
 - Links to other associated sites and resources

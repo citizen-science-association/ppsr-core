@@ -3,8 +3,7 @@ id: team
 title: The Team
 description: Learn about the creators of PPSR core
 ---
-## Governance
-The PPSR-CORE standard governance process is based and rooted in [The Geneva Declaration on Citizen Science Data and Metadata Standards](https://www.cs-eu.net/news/workshop-report-wg-5-geneva-declaration-citizen-science-data-and-metadata-standards)nd follows traditional metadata standard governance processes. It provides a consensus basis for the establishment of a Governance Committee for the PPSR-Core, as well as the initial membership of that Committee and some broad general principles for consideration of amendments to the PPSR-Core standard. We plan to use our Git repository and leverage pull requests and issue trackers. More formal governance details are forthcoming.
+
 
 ## Founding Co-chairs
 

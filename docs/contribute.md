@@ -57,7 +57,10 @@ Fixed typos on homepage
 ### Editing the Schema
 
 
-Our schema and field definitions are maintained in this **google document**. That file is transformed into a JSON Schema which gets published to this website. Please make changes to that document directly.
+The various model schemas and field definitions are maintained in a working document. As this is updated, periodically a delegate from the Model Governance Committee will trigger an extract-transform process which produces a JSON Schema file output, increments the version number within the **PPSR-Core Github repository TODO**, and gets published to this website. In time, other machine-readable derivative formats will also be produced and made available for download.
+
+Should you wish to request a change to any of the Schema models, please submit an issue in the Github repository and tag it as a “Change request” together with the applicable schema model.
+
 
 
 ### Reporting Issues

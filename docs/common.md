@@ -6,7 +6,7 @@ description: Common Data Model (CDM)
 hide_table_of_contents: true
 
 ---
-**C**ommon **D**ata **M**odel **(CDM)** is a data model that glues Projects, Datasets, and Observations together. As a central object, it is required for complete implement of this standard. 
+**C**ommon **D**ata **M**odel **(CDM)** is a data model that glues Projects, Datasets, and Observations together. It allows for projects to aggregated into a higher level concept of a program or campaign which provides context for groups of projects which are being conducted within a common organizing framework. As a central object, it is required for complete implementation of this standard. 
 
 :::caution
 This is the extent of the common schema. Additional attributes required in the programOrCampaign entity for any given implementation should be considered as extensions to this schema.
