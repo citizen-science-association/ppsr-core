@@ -66,7 +66,7 @@ module.exports = {
               to: 'docs/dataset',
             },
             {
-              label: 'Observaiton',
+              label: 'Observation',
               to: 'docs/observation',
             },
           ],

@@ -14,7 +14,7 @@ These standards are united, supported, and underlined by a common framework, the
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <img
-alt="Docusaurus with Keytar"
+  alt="PPSR Core overview"
 src={useBaseUrl('img/ppsr-overview-2020-0.png')}
 />;
 
