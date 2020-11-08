@@ -29,61 +29,584 @@ Scientists and platform managers need to share scientific observations about the
 ## Future Work
 It is intended to comprise a series of domain appropriate sets of attributes and/or schemas which are required for effective and useful aggregation of data for scientific use. An example of this would be the Darwin Core standard used for global biodiversity occurrence data. Other domains also have their specific standards. The ODM will recommend application of relevant existing domain standards where they exist, develop new models where they don't, and will seek to identify and standardize common attributes across domains to enable multi-disciplinary aggregation of datasets on those attributes for cross-disciplinary analysis.
 
-
-<table className="table table-bordered table-hover table-condensed">
-<thead><tr><th title="Field #1">Suffix abbreviation</th>
-<th title="Field #2">Name of standard</th>
-<th title="Field #3">URL</th>
+<table class="table table-bordered table-hover table-condensed">
+<thead><tr><th title="Field #1">Domain area (type of science)</th>
+<th title="Field #2">ODM Core attribute set</th>
+<th title="Field #3">Domain Profile standard(s)</th>
 </tr></thead>
 <tbody><tr>
-<td>dct / dcterms / dcmitype</td>
-<td>Dublin Core Ontology</td>
-<td>
-<a href="https://purl.org/dc/terms/">purl.org/dc/terms/</a> 
-<br/>
-<a href="https://purl.org/dc/dcmitype/">purl.org/dc/dcmitype/</a>
- </td>
+<td>Agricultural And Veterinary Sciences - Agriculture, Land And Farm Management</td>
+<td><a href="https://dwc.tdwg.org/terms/#event">Event Core</a></td>
+<td> </td>
 </tr>
 <tr>
-<td>dwc / dwcterms</td>
-<td>Darwin Core Terms</td>
-<td>
-<a href="http://rs.tdwg.org/dwc/terms/">rs.tdwg.org/dwc/terms/</a>
-</td>
+<td>Agricultural And Veterinary Sciences - Animal Production</td>
+<td><a href="https://dwc.tdwg.org/terms/#event">Event Core</a></td>
+<td> </td>
 </tr>
 <tr>
-<td>cosi</td>
-<td>Core Ontology of Scientific Investigation</td>
-<td>
-<a href="https://purl.org/net/cosi#">purl.org/net/cosi#</a>
-</td>
+<td>Agricultural And Veterinary Sciences - Crop And Pasture Production</td>
+<td><a href="https://dwc.tdwg.org/terms/#event">Event Core</a></td>
+<td> </td>
 </tr>
 <tr>
-<td>dcat</td>
-<td>Data Catalog Vocabulary</td>
-<td>
-<a href="https://www.w3.org/TR/vocab-dcat/">www.w3.org/TR/vocab-dcat/</a>
-</td>
+<td>Agricultural And Veterinary Sciences - Fisheries Sciences</td>
+<td><a href="https://dwc.tdwg.org/terms/#event">Event Core</a></td>
+<td> </td>
 </tr>
 <tr>
-<td>prov</td>
-<td>PROV-DC</td>
-<td>
-<a href="https://www.w3.org/ns/prov#">www.w3.org/ns/prov#</a>
-</td>
+<td>Agricultural And Veterinary Sciences - Forestry Sciences</td>
+<td><a href="https://dwc.tdwg.org/terms/#event">Event Core</a></td>
+<td> </td>
 </tr>
 <tr>
-<td>foaf</td>
-<td>Friend of a Friend Ontology</td>
-<td>
-<a href="http://xmlns.com/foaf/0.1/">xmlns.com/foaf/0.1/</a>
-</td>
+<td>Agricultural And Veterinary Sciences - Horticultural Production</td>
+<td><a href="https://dwc.tdwg.org/terms/#event">Event Core</a></td>
+<td> </td>
 </tr>
 <tr>
-<td>ISO</td>
-<td>ISO 19115</td>
-<td>
-<a href="https://www.iso.org/obp/ui/#iso:std:iso:19115:ed-1:v1:en">www.iso.org/obp/ui/#iso:std:iso:19115:ed-1:v1:en</a>
-</td>
+<td>Art Theory And Criticism</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Biological Sciences - Biodiversity</td>
+<td><a href="https://dwc.tdwg.org/terms/#event">Event Core</a> </td>
+<td><a href="https://dwc.tdwg.org/terms/">Darwin Core</a></td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+<td><a href="https://www.tdwg.org/standards/ac/">Audubon Core</a></td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+<td><a href="https://www.ogc.org/standards/om">Observations and Measurements</a></td>
+</tr>
+<tr>
+<td>Biological Sciences - Ecology</td>
+<td><a href="https://dwc.tdwg.org/terms/#event">Event Core</a></td>
+<td><a href="https://eml.ecoinformatics.org/">Ecological Metadata Language - EML</a></td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+<td><a href="https://dwc.tdwg.org/terms/">Darwin Core</a></td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+<td><a href="https://www.tdwg.org/standards/ac/">Audubon Core</a></td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+<td><a href="https://www.ogc.org/standards/om">Observations and Measurements</a></td>
+</tr>
+<tr>
+<td>Biological Sciences - Evolutionary Biology</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Biological Sciences - Genetics</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Biological Sciences - Microbiology</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Biological Sciences - Other Biological Sciences</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Biological Sciences - Physiology</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Biological Sciences - Plant Biology</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Biological Sciences - Zoology</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Chemical Sciences - Analytical Chemistry</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Chemical Sciences - Inorganic Chemistry</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Chemical Sciences - Macromolecular And Materials Chemistry</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Chemical Sciences - Medicinal And Biomolecular Chemistry</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Chemical Sciences - Organic Chemistry</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Chemical Sciences - Physical Chemistry</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Chemical Sciences - Theoretical And Computational Chemistry</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Earth Sciences - Atmospheric Sciences</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Earth Sciences - Geochemistry</td>
+<td><a href="https://dwc.tdwg.org/terms/#event">Event Core</a> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Earth Sciences - Geology</td>
+<td><a href="https://dwc.tdwg.org/terms/#event">Event Core</a></td>
+<td> </td>
+</tr>
+<tr>
+<td>Earth Sciences - Geophysics</td>
+<td><a href="https://dwc.tdwg.org/terms/#event">Event Core</a> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Earth Sciences - Hydrological Sciences</td>
+<td><a href="https://dwc.tdwg.org/terms/#event">Event Core</a> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Earth Sciences - Oceanography</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Earth Sciences - Physical Geography And Environmental Geoscience</td>
+<td><a href="https://dwc.tdwg.org/terms/#event">Event Core</a> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Engineering - Aerospace Engineering</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Engineering - Automotive Engineering</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Engineering - Biomedical Engineering</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Engineering - Chemical Engineering</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Engineering - Civil Engineering</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Engineering - Electrical And Electronic Engineering</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Engineering - Environmental Engineering</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Engineering - Food Sciences</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Engineering - Manufacturing Engineering</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Engineering - Maritime Engineering</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Engineering - Materials Engineering</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Engineering - Mechanical Engineering</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Engineering - Other Engineering</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Engineering - Resources Engineering And Extractive Metallurgy</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Environmental Sciences - Ecological Applications</td>
+<td><a href="https://dwc.tdwg.org/terms/#event">Event Core</a> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Environmental Sciences - Environmental Science And Management</td>
+<td><a href="https://dwc.tdwg.org/terms/#event">Event Core</a> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Environmental Sciences - Soil Sciences</td>
+<td><a href="https://dwc.tdwg.org/terms/#event">Event Core</a></td>
+<td> </td>
+</tr>
+<tr>
+<td>Information And Computing Sciences - Artificial Intelligence And Image Processing</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Information And Computing Sciences - Computation Theory And Mathematics</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Information And Computing Sciences - Computer Software</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Information And Computing Sciences - Distributed Computing</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Information And Computing Sciences - Information Systems</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Information And Computing Sciences - Library And Information Studies</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Language, Communication And Culture - Communication And Media Studies</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Language, Communication And Culture - Cultural Studies</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Language, Communication And Culture - Language Studies</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Language, Communication And Culture - Linguistics</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Language, Communication And Culture - Literary Studies</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Law And Legal Studies</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Mathematical Sciences - Mathematical Physics</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Mathematical Sciences - Numerical And Computational Mathematics</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Mathematical Sciences - Other Mathematical Sciences</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Medical And Health Sciences - Cardiorespiratory Medicine And Haematology</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Medical And Health Sciences - Clinical Sciences</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Medical And Health Sciences - Complementary And Alternative Medicine</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Medical And Health Sciences - Dentistry</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Medical And Health Sciences - Human Movement And Sports Science</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Medical And Health Sciences - Immunology</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Medical And Health Sciences - Medical Biochemistry And Metabolomics</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Medical And Health Sciences - Medical Microbiology</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Medical And Health Sciences - Medical Physiology</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Medical And Health Sciences - Neurosciences</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Medical And Health Sciences - Nursing</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Medical And Health Sciences - Nutrition And Dietetics</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Medical And Health Sciences - Oncology And Carcinogenesis</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Medical And Health Sciences - Optometry And Ophthalmology</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Medical And Health Sciences - Paediatrics And Reproductive Medicine</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Medical And Health Sciences - Pharmacology And Pharmaceutical Sciences</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Medical And Health Sciences - Public Health And Health Services</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Philosophy And Religious Studies - Applied Ethics</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Philosophy And Religious Studies - History And Philosophy Of Specific Fields</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Philosophy And Religious Studies - Philosophy</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Philosophy And Religious Studies - Religion And Religious Traditions</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Physical Sciences - Astronomical And Space Sciences</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Physical Sciences - Atomic, Molecular, Nuclear, Particle And Plasma Physics</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Physical Sciences - Classical Physics</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Physical Sciences - Condensed Matter Physics</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Physical Sciences - Optical Physics</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Physical Sciences - Other Physical Sciences</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Physical Sciences - Quantum Physics</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Psychology And Cognitive Sciences - Cognitive Science</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Psychology And Cognitive Sciences - Psychology</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Statistics</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Studies In Human Society - Anthropology</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Studies In Human Society - Criminology</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Studies In Human Society - Demography</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Studies In Human Society - Human Geography</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Studies In Human Society - Other Studies In Human Society</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Studies In Human Society - Policy And Administration</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Studies In Human Society - Political Science</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Studies In Human Society - Social Work</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Studies In Human Society - Sociology</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Technology - Agricultural Biotechnology</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Technology - Communications Technologies</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Technology - Computer Hardware</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Technology - Environmental Biotechnology</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Technology - Industrial Biotechnology</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Technology - Medical Biotechnology</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Technology - Nanotechnology</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>Technology - Other Technology</td>
+<td> </td>
+<td> </td>
 </tr>
 </tbody></table>

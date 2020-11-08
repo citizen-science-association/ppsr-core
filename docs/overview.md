@@ -85,7 +85,7 @@ The PPSR-Core is not setting out to create a new data standard for the sake of c
           <div className="margin-bottom--md text--bold text--primary">
             cosi
           </div>
-          <p>A set of fifteen "core" elements for describing resources. It was originally developed for a digital "library card catalog" for the Web (Wikipedia). It is now commonly used as the basis of metadata for many catalogs.</p>
+          <p>An ontology for the representation of scientific investigations. It includes classes of attributes for describing research activities and associated publications.</p>
         </div>
         <div  className="card__footer">
           <a class="button button--outline button--info"
@@ -172,6 +172,44 @@ The PPSR-Core is not setting out to create a new data standard for the sake of c
           href="https://www.iso.org/obp/ui/#iso:std:iso:19115:ed-1:v1:en"
           >
             V1 Official ISO Standard
+          </a>
+        </div>
+      </div>    
+    </div>
+    <div class="col col--6 margin-bottom--lg">
+      <div className="card card--full-height shadow--tl">
+        <div className="card__body">
+          <h3 className="margin--none"> OGC Oberservations and Measurements</h3>
+          <div className="margin-bottom--md text--bold text--primary">
+          om
+          </div>
+          <p>The O&M standard provides a generic structure and database naming principles for any kind of observation or measurement and is generally applicable across all ODM domain profiles in which observations and/or measurements are applicable in the ODM schema.</p>
+        </div>
+        <div  className="card__footer">
+          <a class="button button--outline button--info"
+          target="_blank"
+          href="https://www.ogc.org/standards/om/"
+          >
+            Website
+          </a>
+        </div>
+      </div>    
+    </div>
+      <div class="col col--6 margin-bottom--lg">
+      <div className="card card--full-height shadow--tl">
+        <div className="card__body">
+          <h3 className="margin--none"> OGC Earth Observations GeoJSON</h3>
+          <div className="margin-bottom--md text--bold text--primary">
+          eo-geojson
+          </div>
+          <p>The EO GeoJSON standard defines the JSON encoding format for a range of geometry features derived from the OGC Simple Features specification. It is applicable for all of the geometry objects in the PPSR-Core standard across the PMM, DMM and ODM schemas.</p>
+        </div>
+        <div  className="card__footer">
+          <a class="button button--outline button--info"
+          target="_blank"
+          href="https://www.ogc.org/standards/eo-geojson"
+          >
+            Website
           </a>
         </div>
       </div>    

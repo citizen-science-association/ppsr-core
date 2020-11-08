@@ -6,9 +6,9 @@ description: Dataset Metadata Model (DMM)
 hide_table_of_contents: true
 
 ---
-A Dataset is a collection of data gathered by a project. In the context of PPSR Core; datasets represent the observations collected by a given project from the community.
+A Dataset is a collection of data gathered by a project using a single sampling protocol (data collection method). Projects may have 1 or more datasets. In the context of PPSR Core, datasets represent the observations collected by the community of contributors.
 
-The **D**ataset **M**etadata **M**model **(DMM)** is a metadata model that describes a collection of observations. Dataset level metadata provides context for a collection of observational records and expresses information associated with and common to all records within a dataset. The dataset metadata enables datasets to be discovered and accessed by a range of factors which assist users, especially 3rd party users, in making informed decisions about the suitability of a dataset for their particular usage requirements. It helps helps researchers understand a group of observations:
+The **D**ataset **M**etadata **M**model **(DMM)** is a metadata model that describes a collection of observations. Dataset level metadata provides context for a collection of observational records and expresses information associated with and common to all records within a dataset. The dataset metadata enables datasets to be discovered and accessed by a range of factors which assist users, especially 3rd party users, in making informed decisions about the suitability of a dataset for their particular usage requirements. It helps researchers understand a group of observations:
 -	Title and description of the dataset
 -	Graphical elements associated with the dataset
 -	Method/survey protocol used
