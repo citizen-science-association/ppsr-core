@@ -15,7 +15,7 @@ If you are not familiar with GIT we recommend playing [Learn Git Branching](http
 ### Main file types
 - Markdown - [Docusaurus version](https://v2.docusaurus.io/docs/markdown-features/)
     - **.md** which is plain markdown
-    - **.mdx** which is used for markdown and adds additional processing to allow importing JavaScrip
+    - **.mdx** which is used for markdown and adds additional processing to allow importing JavaScript
 - JavaScript 
     - **.js** used for [ReactJS](https://reactjs.org/docs/getting-started.html) components or special pages that require additional styling
 - JSON

@@ -36,32 +36,32 @@ It is intended to comprise a series of domain appropriate sets of attributes and
 </tr></thead>
 <tbody><tr>
 <td>Agricultural And Veterinary Sciences - Agriculture, Land And Farm Management</td>
-<td><a href="https://dwc.tdwg.org/terms/#event">Event Core</a></td>
+<td><a target="_blank" href="https://dwc.tdwg.org/terms/#event">Event Core</a></td>
 <td> </td>
 </tr>
 <tr>
 <td>Agricultural And Veterinary Sciences - Animal Production</td>
-<td><a href="https://dwc.tdwg.org/terms/#event">Event Core</a></td>
+<td><a target="_blank" href="https://dwc.tdwg.org/terms/#event">Event Core</a></td>
 <td> </td>
 </tr>
 <tr>
 <td>Agricultural And Veterinary Sciences - Crop And Pasture Production</td>
-<td><a href="https://dwc.tdwg.org/terms/#event">Event Core</a></td>
+<td><a target="_blank" href="https://dwc.tdwg.org/terms/#event">Event Core</a></td>
 <td> </td>
 </tr>
 <tr>
 <td>Agricultural And Veterinary Sciences - Fisheries Sciences</td>
-<td><a href="https://dwc.tdwg.org/terms/#event">Event Core</a></td>
+<td><a target="_blank" href="https://dwc.tdwg.org/terms/#event">Event Core</a></td>
 <td> </td>
 </tr>
 <tr>
 <td>Agricultural And Veterinary Sciences - Forestry Sciences</td>
-<td><a href="https://dwc.tdwg.org/terms/#event">Event Core</a></td>
+<td><a target="_blank" href="https://dwc.tdwg.org/terms/#event">Event Core</a></td>
 <td> </td>
 </tr>
 <tr>
 <td>Agricultural And Veterinary Sciences - Horticultural Production</td>
-<td><a href="https://dwc.tdwg.org/terms/#event">Event Core</a></td>
+<td><a target="_blank" href="https://dwc.tdwg.org/terms/#event">Event Core</a></td>
 <td> </td>
 </tr>
 <tr>
@@ -71,38 +71,21 @@ It is intended to comprise a series of domain appropriate sets of attributes and
 </tr>
 <tr>
 <td>Biological Sciences - Biodiversity</td>
-<td><a href="https://dwc.tdwg.org/terms/#event">Event Core</a> </td>
-<td><a href="https://dwc.tdwg.org/terms/">Darwin Core</a></td>
-</tr>
-<tr>
-<td> </td>
-<td> </td>
-<td><a href="https://www.tdwg.org/standards/ac/">Audubon Core</a></td>
-</tr>
-<tr>
-<td> </td>
-<td> </td>
-<td><a href="https://www.ogc.org/standards/om">Observations and Measurements</a></td>
+<td><a target="_blank" href="https://dwc.tdwg.org/terms/#event">Event Core</a> </td>
+<td><a target="_blank" href="https://dwc.tdwg.org/terms/">Darwin Core</a><br/>
+<a target="_blank" href="https://www.tdwg.org/standards/ac/">Audubon Core</a><br/>
+<a target="_blank" href="https://www.ogc.org/standards/om">Observations and Measurements</a>
+</td>
 </tr>
 <tr>
 <td>Biological Sciences - Ecology</td>
-<td><a href="https://dwc.tdwg.org/terms/#event">Event Core</a></td>
-<td><a href="https://eml.ecoinformatics.org/">Ecological Metadata Language - EML</a></td>
-</tr>
-<tr>
-<td> </td>
-<td> </td>
-<td><a href="https://dwc.tdwg.org/terms/">Darwin Core</a></td>
-</tr>
-<tr>
-<td> </td>
-<td> </td>
-<td><a href="https://www.tdwg.org/standards/ac/">Audubon Core</a></td>
-</tr>
-<tr>
-<td> </td>
-<td> </td>
-<td><a href="https://www.ogc.org/standards/om">Observations and Measurements</a></td>
+<td><a target="_blank" href="https://dwc.tdwg.org/terms/#event">Event Core</a></td>
+<td><a target="_blank" href="https://eml.ecoinformatics.org/">Ecological Metadata Language - EML</a>
+<br/>
+<a target="_blank" href="https://dwc.tdwg.org/terms/">Darwin Core</a><br/>
+<a target="_blank" href="https://www.tdwg.org/standards/ac/">Audubon Core</a><br/>
+<a target="_blank" href="https://www.ogc.org/standards/om">Observations and Measurements</a>
+</td>
 </tr>
 <tr>
 <td>Biological Sciences - Evolutionary Biology</td>
@@ -181,22 +164,22 @@ It is intended to comprise a series of domain appropriate sets of attributes and
 </tr>
 <tr>
 <td>Earth Sciences - Geochemistry</td>
-<td><a href="https://dwc.tdwg.org/terms/#event">Event Core</a> </td>
+<td><a target="_blank" href="https://dwc.tdwg.org/terms/#event">Event Core</a> </td>
 <td> </td>
 </tr>
 <tr>
 <td>Earth Sciences - Geology</td>
-<td><a href="https://dwc.tdwg.org/terms/#event">Event Core</a></td>
+<td><a target="_blank" href="https://dwc.tdwg.org/terms/#event">Event Core</a></td>
 <td> </td>
 </tr>
 <tr>
 <td>Earth Sciences - Geophysics</td>
-<td><a href="https://dwc.tdwg.org/terms/#event">Event Core</a> </td>
+<td><a target="_blank" href="https://dwc.tdwg.org/terms/#event">Event Core</a> </td>
 <td> </td>
 </tr>
 <tr>
 <td>Earth Sciences - Hydrological Sciences</td>
-<td><a href="https://dwc.tdwg.org/terms/#event">Event Core</a> </td>
+<td><a target="_blank" href="https://dwc.tdwg.org/terms/#event">Event Core</a> </td>
 <td> </td>
 </tr>
 <tr>
@@ -206,7 +189,7 @@ It is intended to comprise a series of domain appropriate sets of attributes and
 </tr>
 <tr>
 <td>Earth Sciences - Physical Geography And Environmental Geoscience</td>
-<td><a href="https://dwc.tdwg.org/terms/#event">Event Core</a> </td>
+<td><a target="_blank" href="https://dwc.tdwg.org/terms/#event">Event Core</a> </td>
 <td> </td>
 </tr>
 <tr>
@@ -281,17 +264,17 @@ It is intended to comprise a series of domain appropriate sets of attributes and
 </tr>
 <tr>
 <td>Environmental Sciences - Ecological Applications</td>
-<td><a href="https://dwc.tdwg.org/terms/#event">Event Core</a> </td>
+<td><a target="_blank" href="https://dwc.tdwg.org/terms/#event">Event Core</a> </td>
 <td> </td>
 </tr>
 <tr>
 <td>Environmental Sciences - Environmental Science And Management</td>
-<td><a href="https://dwc.tdwg.org/terms/#event">Event Core</a> </td>
+<td><a target="_blank" href="https://dwc.tdwg.org/terms/#event">Event Core</a> </td>
 <td> </td>
 </tr>
 <tr>
 <td>Environmental Sciences - Soil Sciences</td>
-<td><a href="https://dwc.tdwg.org/terms/#event">Event Core</a></td>
+<td><a target="_blank" href="https://dwc.tdwg.org/terms/#event">Event Core</a></td>
 <td> </td>
 </tr>
 <tr>
