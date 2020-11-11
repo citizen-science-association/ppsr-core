@@ -25,12 +25,6 @@ module.exports = {
         {
           to: 'docs/contribute',
           activeBasePath: 'docs/contribute',
-          label: 'Contribute',
-          position: 'left',
-        },
-        {
-          to: 'docs/team',
-          activeBasePath: 'docs/team',
           label: 'About',
           position: 'left',
         },
