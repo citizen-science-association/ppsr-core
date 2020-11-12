@@ -65,7 +65,7 @@ const features = [
 function Feature({ title, description, icon, color, page }) {
   return (
     <div className={clsx("col col--3", styles.feature)}>
-      <Link to={useBaseUrl(`docs/${page}`)}>
+      <Link to={useBaseUrl(`docs/${page}/`)}>
         <FontAwesomeIcon
           icon={icon}
           size="6x"
@@ -135,7 +135,7 @@ function Home() {
         <div className="container">
           <div className="padding-vert--lg">
             <h2>
-              <Link to={useBaseUrl("docs/team")}>About</Link>
+              <Link to={useBaseUrl("docs/team/")}>About</Link>
             </h2>
             PPSR Core is maintained by the Citizen Science Association{" "}
             <Link to="https://www.citizenscience.org/">citizenscience.org</Link>{" "}
@@ -147,7 +147,7 @@ function Home() {
             citizen science projects with over 1M volunteers. We welcome a
             diverse group of individuals & organizations! To help contribute to
             our standard,{" "}
-            <Link to={useBaseUrl("docs/contribute")}>
+            <Link to={useBaseUrl("docs/contribute/")}>
               please read this guide.
             </Link>
           </div>
