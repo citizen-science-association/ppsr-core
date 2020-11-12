@@ -61,16 +61,16 @@ We recommend the following additional tools to aid in content editing & ease of 
 
 ### Step by Step
 After installing the Prerequisite Software:
-1. Clone the repository from github.com/BBudnicki/docusaurus using the command line or GitHub Desktop
+1. Clone the repository from github.com/citizen-science-association/ppsr-core using the command line or GitHub Desktop
 
-        git clone https://github.com/BBudnicki/docusaurus.git
+        git clone https://github.com/citizen-science-association/ppsr-core.git
         
 
 2. Open a terminal / command line in the root folder of your repository and run 
 
         npm run start
 
-3. Your browser should automatically open to http://localhost:3000/docusaurus/
+3. Your browser should automatically open to http://localhost:3000/ppsr-core/
 
 :::info
 Any changes you save will immediately cause the page to refresh and be visible
