@@ -1,12 +1,12 @@
 module.exports = {
   title: 'PPSR Core',
   tagline: 'A Data Standard for Public Participation in Scientific Research (Citizen Science)',
-  url: 'https://bbudnicki.github.io',
-  baseUrl: '/docusaurus/',
+  url: 'https://citizen-science-association.github.io',
+  baseUrl: '/ppsr-core/',
   onBrokenLinks: 'throw',
   favicon: 'img/csafavicon.png',
-  organizationName: 'BBudnicki', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'citizen-science-association', // Usually your GitHub org/user name.
+  projectName: 'ppsr-core', // Usually your repo name.
   plugins: ['docusaurus-plugin-sass'],
   themeConfig: {
     navbar: {
@@ -30,7 +30,7 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/BBudnicki/docusaurus',
+          href: 'https://github.com/citizen-science-association/ppsr-core',
           label: 'GitHub',
           position: 'right',
         },
@@ -96,7 +96,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/BBudnicki/docusaurus',
+              href: 'https://github.com/citizen-science-association/ppsr-core',
             },
           ],
         },
@@ -122,7 +122,7 @@ module.exports = {
           homePageId: 'overview',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/BBudnicki/docusaurus/edit/master/',
+            'https://github.com/citizen-science-association/ppsr-core/edit/master/',
             showLastUpdateAuthor: true,
             showLastUpdateTime: true,
             //remarkPlugins: [require('./src/plugins/remark-npm2yarn')],
@@ -132,7 +132,7 @@ module.exports = {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-          'https://github.com/BBudnicki/docusaurus/edit/master/',
+          'https://github.com/citizen-science-association/ppsr-core/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.scss'),
