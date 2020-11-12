@@ -16,5 +16,5 @@ A committee of the working group (the Model Governance Committee) has been estab
 If standardization bodies such as [ISO](https://www.iso.org), [OGC](https://www.ogc.org), [W3C](https://www.w3.org), [OBO foundry](http://www.obofoundry.org), or [BIS](https://www.tdwg.org) wish to endorse or build upon the models, then we will work with them and support their institutional processes where possible.
 
 ## How the published version gets updated
-Anyone can lodge a submission for the Model Governance Committee to consider a change request (CR). All CRs submitted via the PPSR-Core Github repository issue tracker and pull requests will be considered by the Model Governance Committee and agreed CRs will be incorporated into a subsequent published version of the standard. See [contribute](/docs/contribute) for more details.
+Anyone can lodge a submission for the Model Governance Committee to consider a change request (CR). All CRs submitted via the PPSR-Core Github repository issue tracker and pull requests will be considered by the Model Governance Committee and agreed CRs will be incorporated into a subsequent published version of the standard. See [contribute](/docs/contribute/) for more details.
 

@@ -22,7 +22,7 @@ If you are not familiar with GIT we recommend playing [Learn Git Branching](http
     - **.json** used to store raw data
 
 ### Folder Structure
-The site follows the same standard [Docusaurus](https://v2.docusaurus.io/docs/creating-pages) structure.
+The site follows the same standard [Docusaurus](https://v2.docusaurus.io/docs/creating-pages/) structure.
 
 ```jsx title="Commonly changed files"
 /root

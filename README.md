@@ -4,7 +4,7 @@ This GitHub repository is the source code for the [published standard](https://c
 
 [Standard Overview](https://citizen-science-association.github.io/ppsr-core/docs/)
 
-[Contributing](https://citizen-science-association.github.io/ppsr-core/docs/contribute)
+[Contributing](https://citizen-science-association.github.io/ppsr-core/docs/contribute/)
 
-[Technical](https://citizen-science-association.github.io/ppsr-core/docs/technical)
+[Technical](https://citizen-science-association.github.io/ppsr-core/docs/technical/)
 
