@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[25],{79:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"data-quality","name":"data quality","count":1,"permalink":"/blog/tags/data-quality"}')}}]);
