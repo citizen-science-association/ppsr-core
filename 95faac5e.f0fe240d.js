@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[21],{76:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"quality-assurance","name":"quality assurance","count":1,"permalink":"/blog/tags/quality-assurance"}')}}]);

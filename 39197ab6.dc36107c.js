@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[15],{69:function(a){a.exports=JSON.parse('{"allTagsPath":"/ppsr-core/blog/tags","slug":"data-quality","name":"data quality","count":1,"permalink":"/ppsr-core/blog/tags/data-quality"}')}}]);
