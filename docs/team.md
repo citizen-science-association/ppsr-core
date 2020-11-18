@@ -23,3 +23,5 @@ PPSR Core is maintained by an international group of volunteers including member
 **Peter Brenton**, Atlas of Living Australia  
 
 **Sven Schade**, European Commission's Joint Research Centre 
+
+**Xeni Kechagioglou**, Water Resources Research and Documentation Centre (WARREDOC)
