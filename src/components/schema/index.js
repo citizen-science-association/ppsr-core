@@ -1,6 +1,6 @@
 import React from "react";
 import schemaJson from "@site/static/json/schema.org.json";
-import JsonPrint from "../JsonPrint";
+import JsonPrint from "../jsonPrint";
 class SchemaLayout extends React.Component {
     constructor(props) {
         super(props);
