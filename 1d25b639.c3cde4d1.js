@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[11],{65:function(p){p.exports=JSON.parse('{"allTagsPath":"/ppsr-core/blog/tags","slug":"philosophy","name":"philosophy","count":1,"permalink":"/ppsr-core/blog/tags/philosophy"}')}}]);
