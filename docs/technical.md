@@ -91,7 +91,7 @@ cmd /C "set GIT_USER=<GITHUB_USERNAME>&& npm run deploy"
 ```
 
 :::info
-Changes should appear within 30 seconds. Be sure to do a hard refresh of the page, locally cache files from the public site might show the old site.
+Changes should appear within 30 seconds. Be sure to do a hard refresh of the page, locally cache files from the public site might show the old site...
 :::
 
 
