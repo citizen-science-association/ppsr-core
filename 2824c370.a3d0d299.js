@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{67:function(s){s.exports=JSON.parse('{"allTagsPath":"/ppsr-core/blog/tags","slug":"trust","name":"trust","count":1,"permalink":"/ppsr-core/blog/tags/trust"}')}}]);
