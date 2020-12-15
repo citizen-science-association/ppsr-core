@@ -65,8 +65,11 @@ After installing the Prerequisite Software:
 
         git clone https://github.com/citizen-science-association/ppsr-core.git
         
+2. Install dependencies: Open a terminal / command line in the root folder of your repository 
 
-2. Open a terminal / command line in the root folder of your repository and run 
+        npm install
+
+2. Run local build server: Open a terminal / command line in the root folder of your repository
 
         npm run start
 
