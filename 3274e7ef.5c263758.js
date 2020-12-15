@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[16],{70:function(p){p.exports=JSON.parse('{"allTagsPath":"/ppsr-core/blog/tags","slug":"approach","name":"approach","count":1,"permalink":"/ppsr-core/blog/tags/approach"}')}}]);
