@@ -2,7 +2,7 @@ module.exports = {
   title: 'PPSR Core',
   tagline: 'A Data Standard for Public Participation in Scientific Research (Citizen Science)',
   url: 'https://citizen-science-association.github.io',
-  baseUrl: '/ppsr-core/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/csafavicon.png',
   organizationName: 'citizen-science-association', // Usually your GitHub org/user name.
