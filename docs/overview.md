@@ -15,7 +15,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <img
   alt="PPSR Core overview"
-src={useBaseUrl('img/ppsr-overview-2020-0.png')}
+src={useBaseUrl('img/ppsr-overview-2020-1.png')}
 />;
 
 ## Rationale
