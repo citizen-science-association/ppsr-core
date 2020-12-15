@@ -73,7 +73,7 @@ After installing the Prerequisite Software:
 
         npm run start
 
-3. Your browser should automatically open to http://localhost:3000/ppsr-core/
+3. Your browser should automatically open to http://localhost:3000/
 
 :::info
 Any changes you save will immediately cause the page to refresh and be visible
