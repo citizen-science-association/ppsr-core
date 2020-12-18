@@ -94,11 +94,12 @@ GIT_USER=<GITHUB_USERNAME> npm run deploy
 cmd /C "set GIT_USER=<GITHUB_USERNAME>&& npm run deploy"
 ```
 
+![publish](https://github.com/citizen-science-association/ppsr-core/workflows/publish/badge.svg?branch=master)
+
+
 :::info
 Changes should appear within 2 minutes. Be sure to do a hard refresh of the page, locally cache files from the public site might show the old site.
 :::
-
-![publish](https://github.com/citizen-science-association/ppsr-core/workflows/publish/badge.svg?branch=master)
 
 
 
