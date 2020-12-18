@@ -3,6 +3,7 @@ id: technical
 title: Technical
 description: How the PPSR website was built
 ---
+![publish](https://github.com/citizen-science-association/ppsr-core/workflows/publish/badge.svg?branch=master)
 
 This website is hosted for free by [GitHub Pages](https://docs.github.com/en/github/working-with-github-pages) which is a static site hosting solution. The scaffolding for this site is based on [Docusaurus Version 2.0](https://v2.docusaurus.io/docs/) which takes Markdown and JavaScript files and generates static HTML.
 
@@ -94,8 +95,10 @@ cmd /C "set GIT_USER=<GITHUB_USERNAME>&& npm run deploy"
 ```
 
 :::info
-Changes should appear within 30 seconds. Be sure to do a hard refresh of the page, locally cache files from the public site might show the old site.
+Changes should appear within 2 minutes. Be sure to do a hard refresh of the page, locally cache files from the public site might show the old site.
 :::
+
+![publish](https://github.com/citizen-science-association/ppsr-core/workflows/publish/badge.svg?branch=master)
 
 
 
