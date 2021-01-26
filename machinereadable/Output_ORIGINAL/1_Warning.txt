@@ -1,0 +1,10 @@
+
+The European Commission’s anti-virus protection system has detected a potentially harmful attached file. The file “PPSR_JSONSchema.js” has been removed.
+
+Le système de protection antivirus de la Commission européenne a détecté une pièce jointe potentiellement dangereuse. Le fichier « PPSR_JSONSchema.js » a été supprimé.
+
+Das Antivirenschutzsystem der Europäischen Kommission hat einen potenziellen gefährlichen Anhang entdeckt. Die Datei „PPSR_JSONSchema.js“ wurde gelöscht.
+
+
+TECHNICAL REFERENCE: 6dc8-5fe0-4b71-0001
+
