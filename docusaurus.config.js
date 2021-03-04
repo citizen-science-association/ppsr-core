@@ -36,7 +36,7 @@ module.exports = {
         },
       ],
     },
-    sidebarCollapsible: false,
+    sidebarCollapsible: true,
     footer: {
       style: 'dark',
       links: [
@@ -62,6 +62,10 @@ module.exports = {
             {
               label: 'Observation',
               to: 'docs/observation',
+            },
+            {
+              label: 'Implementation',
+              to: 'docs/implementation',
             },
           ],
         },
