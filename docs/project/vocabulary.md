@@ -1,11 +1,10 @@
 ---
 id: vocabulary
-title: Vocabulary
+title: Project Vocabulary
 sidebar_label: Vocabulary
 description: Vocabulary from Project (PMM)
 hide_table_of_contents: true
 ---
-
 
 **[current approved version: 2020.0]**
 

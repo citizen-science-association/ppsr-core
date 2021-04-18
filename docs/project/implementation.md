@@ -1,9 +1,9 @@
 ---
 id: implementation
-title: Implementation approach
+title: Project Implementation approach
 sidebar_label: Implementation
-description: Implementation approach for creating a JSON Schema
-hide_table_of_contents: true
+description: Project Implementation approach for creating a JSON Schema
+hide_table_of_contents: false
 ---
 It is important to maintain synchronicity of resources (documentation, visualizations, schemas, etc.) describing or implementing the PPSR Core standard. For this reason, a single source (master) should be used in a way that all derived resources (documentation, visualizations, schemas, etc.) are automatically generated from it.
 
@@ -13,7 +13,7 @@ For further illustrations, this page also explains the transformation of an exis
 
 ## Transformation from XLSX to JSON incl. JSON Schema
 
-The input PPSR Project Metadata Model has been downloaded from the following web page: [https://core.citizenscience.org/docs/project/](https://core.citizenscience.org/docs/project/). Our main concern was to implement the [“Core attributes”](https://core.citizenscience.org/docs/core_attributes) and the matching [“Vocabulary”](https://core.citizenscience.org/docs/project/vocabulary) of this model in JSON Schema.
+The input PPSR Project Metadata Model has been downloaded from the following web page: [https://core.citizenscience.org/docs/project/](https://core.citizenscience.org/docs/project/). Our main concern was to implement the [“Core attributes”](https://core.citizenscience.org/docs/project-core-attributes) and the matching [“Vocabulary”](https://core.citizenscience.org/docs/project/vocabulary) of this model in JSON Schema.
 
 We use an ETL (Extract Transform Load) tool to create the transformations to JSON Schema and to JSON Data. For this purpose, we selected the widely used open-source tool Pentaho Data Integration (PDI) that can be downloaded from https://sourceforge.net/projects/pentaho/.
 

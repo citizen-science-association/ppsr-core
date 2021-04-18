@@ -1,7 +1,7 @@
 ---
-id: extension_attributes
-title: Extension Attributes
-sidebar_label: Additional Attributes
+id: extension-attributes
+title: Project Extension Attributes
+sidebar_label: Extension Attributes
 description: Extension Attributes from Project (PMM)
 hide_table_of_contents: true
 ---

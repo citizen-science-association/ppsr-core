@@ -1,6 +1,6 @@
 ---
-id: core_attributes
-title: Core Attributes
+id: core-attributes
+title: Project Core Attributes
 sidebar_label: Core Attributes
 description: Core Attributes from Project (PMM)
 hide_table_of_contents: true

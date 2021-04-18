@@ -1,9 +1,10 @@
 ---
-id: conceptual_model
+id: overview
+slug: /project
 title: Project Metadata Model
-sidebar_label: Introduction
+sidebar_label: Overview
 description: Conceptual model of Project (PMM)
-hide_table_of_contents: true
+hide_table_of_contents: false
 
 
 ---
