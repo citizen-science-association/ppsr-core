@@ -63,10 +63,6 @@ module.exports = {
               label: 'Observation',
               to: 'docs/observation',
             },
-            {
-              label: 'Implementation',
-              to: 'docs/implementation',
-            },
           ],
         },
         {
