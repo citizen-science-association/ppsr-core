@@ -1,6 +1,7 @@
 ---
 id: overview
 title: Overview
+slug: /
 description: Overview of the PPSR Core standard
 ---
 

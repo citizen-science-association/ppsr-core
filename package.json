@@ -4,23 +4,24 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "docusaurus start",
+    "start": "docusaurus start --config docusaurus.config.dev.js",
+    "builddev": "docusaurus build --config docusaurus.config.dev.js",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "serve": "docusaurus serve"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.61",
-    "@docusaurus/preset-classic": "^2.0.0-alpha.61",
+    "@docusaurus/core": "^2.0.0-alpha.73",
+    "@docusaurus/preset-classic": "^2.0.0-alpha.73",
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
     "@fortawesome/react-fontawesome": "^0.1.11",
     "@mdx-js/react": "^1.5.8",
     "clsx": "^1.1.1",
-    "docusaurus-plugin-sass": "^0.1.9",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "docusaurus-plugin-sass": "^0.1.12",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   },
   "browserslist": {
     "production": [
