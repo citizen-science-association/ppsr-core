@@ -5,5 +5,6 @@ let docusaurusDEV = {
   noIndex: true, // Defaults to `false`
   url: "http://bbudnicki.github.io",
   baseUrl: '/ppsr-core/',
+  organizationName: 'bbudnicki',
 };
 module.exports = docusaurusDEV;
