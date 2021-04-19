@@ -4,5 +4,4 @@ let docusaurusDEV = {
   title: `BETA ${docusaurusPRD.title}`,
   noIndex: true, // Defaults to `false`
 };
-console.log(docusaurusDEV);
 module.exports = docusaurusDEV;
