@@ -4,6 +4,6 @@ let docusaurusDEV = {
   title: `BETA ${docusaurusPRD.title}`,
   noIndex: true, // Defaults to `false`
   url: "http://bbudnicki.github.io",
-  baseUrl: '/ppsr-core',
+  baseUrl: '/ppsr-core/',
 };
 module.exports = docusaurusDEV;
