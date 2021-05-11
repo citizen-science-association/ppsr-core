@@ -460,7 +460,7 @@
     <notepad>
       <note>Formating the "Data or Entity Type"
 for JSON type</note>
-      <xloc>1136</xloc>
+      <xloc>1056</xloc>
       <yloc>96</yloc>
       <width>245</width>
       <heigth>50</heigth>
@@ -474,29 +474,6 @@ for JSON type</note>
       <backgroundcolorred>255</backgroundcolorred>
       <backgroundcolorgreen>205</backgroundcolorgreen>
       <backgroundcolorblue>112</backgroundcolorblue>
-      <bordercolorred>100</bordercolorred>
-      <bordercolorgreen>100</bordercolorgreen>
-      <bordercolorblue>100</bordercolorblue>
-      <drawshadow>Y</drawshadow>
-    </notepad>
-    <notepad>
-      <note>Need to test for others
-
-DONE!  For testing purpose!</note>
-      <xloc>544</xloc>
-      <yloc>544</yloc>
-      <width>196</width>
-      <heigth>70</heigth>
-      <fontname>Segoe UI</fontname>
-      <fontsize>9</fontsize>
-      <fontbold>N</fontbold>
-      <fontitalic>N</fontitalic>
-      <fontcolorred>0</fontcolorred>
-      <fontcolorgreen>0</fontcolorgreen>
-      <fontcolorblue>0</fontcolorblue>
-      <backgroundcolorred>255</backgroundcolorred>
-      <backgroundcolorgreen>255</backgroundcolorgreen>
-      <backgroundcolorblue>128</backgroundcolorblue>
       <bordercolorred>100</bordercolorred>
       <bordercolorgreen>100</bordercolorgreen>
       <bordercolorblue>100</bordercolorblue>
@@ -530,11 +507,6 @@ DONE!  For testing purpose!</note>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Filter just entity "project" and "contactPoint" </from>
-      <to>Dummy (do nothing)</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
       <from>"Data or Entity Type" is text or vocabulary or mediaFile</from>
       <to>string</to>
       <enabled>Y</enabled>
@@ -543,11 +515,6 @@ DONE!  For testing purpose!</note>
       <from>"Data or Entity Type" is Time, projectEndDate</from>
       <to>string 2</to>
       <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Filter just entity "project" and "contactPoint" </from>
-      <to>Add fields</to>
-      <enabled>N</enabled>
     </hop>
     <hop>
       <from>Add fields</from>
@@ -630,16 +597,6 @@ DONE!  For testing purpose!</note>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Vocabulary is null</from>
-      <to>Filter just entity "project" and "contactPoint" </to>
-      <enabled>N</enabled>
-    </hop>
-    <hop>
-      <from>SetVocabularyTermsNot</from>
-      <to>Filter just entity "project" and "contactPoint" </to>
-      <enabled>N</enabled>
-    </hop>
-    <hop>
       <from>Build JSON</from>
       <to>Output JSON</to>
       <enabled>Y</enabled>
@@ -719,7 +676,7 @@ DONE!  For testing purpose!</note>
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1104</xloc>
+      <xloc>1024</xloc>
       <yloc>688</yloc>
       <draw>Y</draw>
     </GUI>
@@ -768,7 +725,7 @@ DONE!  For testing purpose!</note>
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1104</xloc>
+      <xloc>1024</xloc>
       <yloc>432</yloc>
       <draw>Y</draw>
     </GUI>
@@ -855,7 +812,7 @@ DONE!  For testing purpose!</note>
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1104</xloc>
+      <xloc>1024</xloc>
       <yloc>304</yloc>
       <draw>Y</draw>
     </GUI>
@@ -904,7 +861,7 @@ DONE!  For testing purpose!</note>
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1104</xloc>
+      <xloc>1024</xloc>
       <yloc>560</yloc>
       <draw>Y</draw>
     </GUI>
@@ -953,7 +910,7 @@ DONE!  For testing purpose!</note>
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1104</xloc>
+      <xloc>1024</xloc>
       <yloc>816</yloc>
       <draw>Y</draw>
     </GUI>
@@ -1066,7 +1023,7 @@ DONE!  For testing purpose!</note>
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1104</xloc>
+      <xloc>1024</xloc>
       <yloc>176</yloc>
       <draw>Y</draw>
     </GUI>
@@ -1361,7 +1318,7 @@ JsonOutput = JSON.stringify(json);
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1824</xloc>
+      <xloc>1648</xloc>
       <yloc>432</yloc>
       <draw>Y</draw>
     </GUI>
@@ -1510,7 +1467,6 @@ JsonOutput = JSON.stringify(json);
     <extensionFieldName/>
     <sizeFieldName/>
     <spreadsheet_type>POI</spreadsheet_type>
-    <password>Encrypted </password>
     <attributes/>
     <cluster_schema/>
     <remotesteps>
@@ -1545,98 +1501,8 @@ JsonOutput = JSON.stringify(json);
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1344</xloc>
+      <xloc>1264</xloc>
       <yloc>688</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Dummy (do nothing)</name>
-    <type>Dummy</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>800</xloc>
-      <yloc>640</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Filter just entity "project" and "contactPoint" </name>
-    <type>FilterRows</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <send_true_to>Add fields</send_true_to>
-    <send_false_to>Dummy (do nothing)</send_false_to>
-    <compare>
-      <condition>
-        <negated>N</negated>
-        <conditions>
-          <condition>
-            <negated>N</negated>
-            <leftvalue>entity_core</leftvalue>
-            <function>=</function>
-            <rightvalue/>
-            <value>
-              <name>constant</name>
-              <type>String</type>
-              <text>project</text>
-              <length>-1</length>
-              <precision>-1</precision>
-              <isnull>N</isnull>
-              <mask/>
-            </value>
-          </condition>
-          <condition>
-            <negated>N</negated>
-            <operator>OR</operator>
-            <leftvalue>entity_core</leftvalue>
-            <function>=</function>
-            <rightvalue/>
-            <value>
-              <name>constant</name>
-              <type>String</type>
-              <text>contactPoint</text>
-              <length>-1</length>
-              <precision>-1</precision>
-              <isnull>N</isnull>
-              <mask/>
-            </value>
-          </condition>
-        </conditions>
-      </condition>
-    </compare>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>800</xloc>
-      <yloc>464</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1734,7 +1600,7 @@ JsonOutput = JSON.stringify(json);
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1616</xloc>
+      <xloc>1536</xloc>
       <yloc>432</yloc>
       <draw>Y</draw>
     </GUI>
@@ -1801,7 +1667,7 @@ JsonOutput = JSON.stringify(json);
       <name>C:/Users/irena/Desktop/PPSR_Inventory_Spoon/Output/PPSR_JSONSchema</name>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
-      <extention>js</extention>
+      <extention>json</extention>
       <append>N</append>
       <split>N</split>
       <haspartno>N</haspartno>
@@ -1837,7 +1703,7 @@ JsonOutput = JSON.stringify(json);
       </output>
     </remotesteps>
     <GUI>
-      <xloc>2016</xloc>
+      <xloc>1840</xloc>
       <yloc>432</yloc>
       <draw>Y</draw>
     </GUI>
@@ -1947,8 +1813,8 @@ JsonOutput = JSON.stringify(json);
       </output>
     </remotesteps>
     <GUI>
-      <xloc>560</xloc>
-      <yloc>320</yloc>
+      <xloc>640</xloc>
+      <yloc>240</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2144,7 +2010,6 @@ JsonOutput = JSON.stringify(json);
     <extensionFieldName/>
     <sizeFieldName/>
     <spreadsheet_type>POI</spreadsheet_type>
-    <password>Encrypted </password>
     <attributes/>
     <cluster_schema/>
     <remotesteps>
@@ -2223,7 +2088,7 @@ JsonOutput = JSON.stringify(json);
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1344</xloc>
+      <xloc>1264</xloc>
       <yloc>816</yloc>
       <draw>Y</draw>
     </GUI>
@@ -2248,7 +2113,7 @@ JsonOutput = JSON.stringify(json);
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1104</xloc>
+      <xloc>1024</xloc>
       <yloc>960</yloc>
       <draw>Y</draw>
     </GUI>
@@ -2282,7 +2147,7 @@ JsonOutput = JSON.stringify(json);
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1344</xloc>
+      <xloc>1264</xloc>
       <yloc>176</yloc>
       <draw>Y</draw>
     </GUI>
@@ -2316,7 +2181,7 @@ JsonOutput = JSON.stringify(json);
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1344</xloc>
+      <xloc>1264</xloc>
       <yloc>304</yloc>
       <draw>Y</draw>
     </GUI>
@@ -2356,7 +2221,7 @@ JsonOutput = JSON.stringify(json);
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1344</xloc>
+      <xloc>1264</xloc>
       <yloc>432</yloc>
       <draw>Y</draw>
     </GUI>
@@ -2396,7 +2261,7 @@ JsonOutput = JSON.stringify(json);
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1344</xloc>
+      <xloc>1264</xloc>
       <yloc>560</yloc>
       <draw>Y</draw>
     </GUI>

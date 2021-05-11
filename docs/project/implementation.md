@@ -21,10 +21,9 @@ Using the Pentaho graphical user interface (Spoon), a workflow was created that 
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img
-  alt="PPSR Core overview"
-src={useBaseUrl('img/etl_pentaho_json-schema.png')}
-/>
+<a href={useBaseUrl('img/etl_pentaho_json-schema.png')} target="_blank">
+    <img alt="ETL Pentaho JSON Schema" src={useBaseUrl('img/etl_pentaho_json-schema.png')}/>
+</a>
 <div align="center">Figure 1. Transformation of PPSR Project Metadata Model (Core attributes and Vocabulary) in JSON Schema with Pentaho Data Integration</div>
 &nbsp;
 
@@ -183,10 +182,9 @@ To test the generated JSON Schema and to check the implemented restrictions, a J
  
 First, as the model of the CS Inventory is not the same as the one of PPSR, a transformation between the data models needed to be done – which consists of attribute renaming, attribute addition, value mapping. The transformation was again performed using Pentaho (see also Figure 2).
 
-<img
-  alt="Transformation of the CS Inventory in JSON Data"
-src={useBaseUrl('img/etl_pentaho_json-data.png')}
-/>
+<a href={useBaseUrl('img/etl_pentaho_json-data.png')} target="_blank">
+    <img alt="Transformation of the CS Inventory in JSON Data" src={useBaseUrl('img/etl_pentaho_json-data.png')}/>
+</a>
 <div align="center">Figure 2. Transformation of the CS Inventory in JSON Data with Pentaho Data Integration</div>
 &nbsp;
 
