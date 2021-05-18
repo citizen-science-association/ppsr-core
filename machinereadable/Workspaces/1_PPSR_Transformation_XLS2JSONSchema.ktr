@@ -1350,7 +1350,7 @@ JsonOutput = JSON.stringify(json);
     <accept_field/>
     <accept_stepname/>
     <file>
-      <name>C:\Users\irena\Desktop\PPSR_Inventory_Spoon\Input\1_Project_Metadata_Model.xlsx</name>
+      <name>${Internal.Entry.Current.Directory}\..\Input\1_Project_Metadata_Model.xlsx</name>
       <filemask/>
       <exclude_filemask/>
       <file_required>N</file_required>
@@ -1467,6 +1467,7 @@ JsonOutput = JSON.stringify(json);
     <extensionFieldName/>
     <sizeFieldName/>
     <spreadsheet_type>POI</spreadsheet_type>
+    <password>Encrypted </password>
     <attributes/>
     <cluster_schema/>
     <remotesteps>
@@ -1664,7 +1665,7 @@ JsonOutput = JSON.stringify(json);
     <fileNameField/>
     <create_parent_folder>Y</create_parent_folder>
     <file>
-      <name>C:/Users/irena/Desktop/PPSR_Inventory_Spoon/Output/PPSR_JSONSchema</name>
+      <name>${Internal.Entry.Current.Directory}/../Output/PPSR_JSONSchema</name>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>json</extention>
@@ -1929,7 +1930,7 @@ JsonOutput = JSON.stringify(json);
     <accept_field/>
     <accept_stepname/>
     <file>
-      <name>C:\Users\irena\Desktop\PPSR_Inventory_Spoon\Input\1_Project_Metadata_Model.xlsx</name>
+      <name>${Internal.Entry.Current.Directory}\..\Input\1_Project_Metadata_Model.xlsx</name>
       <filemask/>
       <exclude_filemask/>
       <file_required>N</file_required>
@@ -2010,6 +2011,7 @@ JsonOutput = JSON.stringify(json);
     <extensionFieldName/>
     <sizeFieldName/>
     <spreadsheet_type>POI</spreadsheet_type>
+    <password>Encrypted </password>
     <attributes/>
     <cluster_schema/>
     <remotesteps>

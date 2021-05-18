@@ -815,7 +815,7 @@ JsonOutput = JSON.stringify(jsonProject);
     <accept_field/>
     <accept_stepname/>
     <file>
-      <name>C:\Users\irena\Desktop\PPSR_Inventory_Spoon\Input\Inventory of environmental citizen science projects_anonymised.xlsx</name>
+      <name>${Internal.Entry.Current.Directory}\..\Input\Inventory of environmental citizen science projects_anonymised.xlsx</name>
       <filemask/>
       <exclude_filemask/>
       <file_required>N</file_required>
@@ -1292,6 +1292,7 @@ JsonOutput = JSON.stringify(jsonProject);
     <extensionFieldName/>
     <sizeFieldName/>
     <spreadsheet_type>SAX_POI</spreadsheet_type>
+    <password>Encrypted </password>
     <attributes/>
     <cluster_schema/>
     <remotesteps>
@@ -2035,7 +2036,7 @@ JsonOutput = JSON.stringify(jsonProject);
     <fileNameField/>
     <create_parent_folder>Y</create_parent_folder>
     <file>
-      <name>C:\Users\irena\Desktop\PPSR_Inventory_Spoon\Output\CSInventory_JSON</name>
+      <name>${Internal.Entry.Current.Directory}\..\Output\CSInventory_JSON</name>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>json</extention>
