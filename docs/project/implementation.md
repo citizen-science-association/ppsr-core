@@ -5,13 +5,19 @@ sidebar_label: Implementation
 description: Project Implementation approach for creating a JSON Schema
 hide_table_of_contents: false
 ---
-It is important to maintain synchronicity of resources (documentation, visualizations, schemas, etc.) describing or implementing the PPSR Core standard. For this reason, a single source (master) should be used in a way that all derived resources (documentation, visualizations, schemas, etc.) are automatically generated from it.
+On this page we describe one way of implementing PPSR Core, i.e. to use its terms and definitions to actually provide access to citizen science project descriptions. We explain how already available project descriptions (for example a collection of citizen science projects that all provide data about birds) could be made available using PPRS Core. This can be useful if you want to share your project descriptions with others, or to avoid the development of a new data structure/format when building your own collection of projects.
 
-The main aim of this page is to describe the transformation of the PPSR Core Project Metadata Model specification from an Excel file (.xlsx) into JSON Schema syntax, which then provides an implementation of the standard. Doing so, the procedure can also help to implement future versions of the standard by automatically generating the implementation structure (in JSON Schema).
+Our description consists of two parts:
+- First, we create the data structure (or the data format). In this part, we decided to use JSON Schema, which currently is the most used way of describing online data structures. In order to consider the latest version of PPSR Core, we suggest an automated approach to create a compliant JSON Schema from the recent Excel file describing the standard.
+- Then, we illustrate how an existing project collection (here, citizen science projects related to environmental policies) is provided structured according to the format that we just created. We provide the results in JSON - in a way that allows to check automatically if the descriptions follow the previously defined formatting rules. This automated check is important to ensure that our descriptions are structured in the right (standard) way.
 
-For further illustrations, this page also explains the transformation of an existing inventory of citizen science projects into a JSON file that validates against the automatically created JSON Schema - and thereby follows the structure of the PPSR standard.
+The tool that we use to provide our examples is free and open to re-use. In this way, it is possible for everyone who has the right skills to replicate our examples – or to modify them for their own purposes.
 
-## Transformation from XLSX to JSON incl. JSON Schema
+## 1. Transformation of the PPSR Core Project Metadata Model to JSON Schema
+
+It is important to maintain synchronicity of resources (documentation, visualizations, schemas, etc.) describing or implementing the PPSR Core standard. For this reason, a single source (master) of the PPSR Core specification should be consistently used for all derived resources (documentation, visualizations, schemas, etc.) to be automatically generated from it.
+
+The PPSR core implementation issues include, among others, PPSR Core [serializations](https://en.wikipedia.org/wiki/Serialization), and we currently focus on JSON Schema based ones. In particular, we describe the automatic transformation to JSON Schema of the excel file (.xlsx) describing the PPSR Core Project Metadata Model, resulting in an implementation of the standard. The automatic transformation procedure we have described can also help to implement future versions of the standard by automatically generating the implementation structure (in JSON Schema).
 
 The input PPSR Project Metadata Model has been downloaded from the following web page: [https://core.citizenscience.org/docs/project/](https://core.citizenscience.org/docs/project/). Our main concern was to implement the [“Core attributes”](https://core.citizenscience.org/docs/project-core-attributes) and the matching [“Vocabulary”](https://core.citizenscience.org/docs/project/vocabulary) of this model in JSON Schema.
 
@@ -177,6 +183,9 @@ Example for “oneOf” keyword used:
         }
     ]
 
+
+## 2. Example of Citizen Science data description compliant to the PPSR Core Project Metadata Model to JSON Schema
+In this part, we provide an example of Citizen Science data description that is compliant to the implementation of PPSR Core in JSON Schema (i.e. the JSON data description validates against the automatically created JSON Schema).
 
 To test the generated JSON Schema and to check the implemented restrictions, a JSON Data file was generated. The data used as input is the inventory of 512 Citizens Science (CS) projects relevant for environmental policies that the Joint Research Centre (JRC) is collecting and managing (["An inventory of citizen science activities for environmental policies"](https://data.jrc.ec.europa.eu/dataset/jrc-citsci-10004)).
  
