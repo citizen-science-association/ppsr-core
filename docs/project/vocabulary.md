@@ -11,7 +11,7 @@ hide_table_of_contents: true
 The Vocabulary for Project defines enumerations for attributes above. These are controlled lists of defined terms. These terms may be used either as provided in full or as a reduced subset relevant to the purpose for which they are being used. They should not be modified or augmented with additional terms as this would prevent shareability and effective aggregation. 
 
 :::caution Provisional
-The vocabulary is part of the published standard. Be warned that this vocabulary is subject to larger changes than the core terms & attributes. Reaching consensus with the larger scientific community is important to us. If you are interested in help with this work, please see the [contribute page](/docs/contribute/).
+The vocabulary is part of the published standard. Be warned that this vocabulary is subject to larger changes than the core terms & attributes. Reaching consensus with the larger scientific community is important to us. If you are interested in help with this work, please see the [contribute page](contribute.md).
 :::
 
 

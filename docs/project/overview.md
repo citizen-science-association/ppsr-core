@@ -38,7 +38,7 @@ Project managers need efficient means to share information about their projects 
 ## Entity Relationship Diagram
 **[current approved version: 2020.0]**
 
-The Project ERD describes the relationships between class entities in the project metadata model. Each project contains a set of [Core Attributes](#core-attributes) which represent the core terms associated with a project. The [Extension Attributes](#extension-attributes) are optional terms associated with a project.  
+The Project ERD describes the relationships between class entities in the project metadata model. Each project contains a set of [Core Attributes](project/core-attributes.md) which represent the core terms associated with a project. The [Extension Attributes](project/extension-attributes.md) are optional terms associated with a project.  
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 

@@ -5,7 +5,7 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start --config docusaurus.config.dev.js",
-    "builddev": "docusaurus build --config docusaurus.config.dev.js",
+    "buildbeta": "docusaurus build --config docusaurus.config.beta.js",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
