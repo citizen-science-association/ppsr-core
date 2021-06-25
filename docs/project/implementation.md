@@ -11,7 +11,10 @@ Our description consists of two parts:
 - First, we create the data structure (or the data format). In this part, we decided to use JSON Schema, which currently is the most used way of describing online data structures. In order to consider the latest version of PPSR Core, we suggest an automated approach to create a compliant JSON Schema from the recent Excel file describing the standard.
 - Then, we illustrate how an existing project collection (here, citizen science projects related to environmental policies) is provided structured according to the format that we just created. We provide the results in JSON - in a way that allows to check automatically if the descriptions follow the previously defined formatting rules. This automated check is important to ensure that our descriptions are structured in the right (standard) way.
 
-The tool that we use to provide our examples is free and open to re-use. In this way, it is possible for everyone who has the right skills to replicate our examples – or to modify them for their own purposes.
+The tool used in these examples is Pentaho, which is free and open to re-use. In this way, it is possible for everyone who has the right skills to replicate our examples – or to modify them for their own purposes.
+
+Pentaho Spoon Data Integration software can be downloaded at [sourceforge.net](
+https://sourceforge.net/projects/pentaho/files/Pentaho%208.2/client-tools/pdi-ce-8.2.0.0-342.zip/download?use_mirror=netcologne&download=&failedmirror=jztkft.dl.sourceforge.net).
 
 ## 1. Transformation of the PPSR Core Project Metadata Model to JSON Schema
 
