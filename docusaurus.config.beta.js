@@ -1,9 +1,10 @@
 let docusaurusPRD = require('./docusaurus.config');
-let docusaurusDEV = {
+let docusaurusBETA = {
   ...docusaurusPRD,
   title: `BETA ${docusaurusPRD.title}`,
   noIndex: true, // Defaults to `false`,
+  url: "https://bbudnicki.github.io",
   baseUrl: '/ppsr-core/',
+  organizationName: 'bbudnicki',
 };
-console.log(docusaurusDEV);
-module.exports = docusaurusDEV;
+module.exports = docusaurusBETA;

@@ -1,7 +1,7 @@
 let docusaurusPRD = require('./docusaurus.config');
 let docusaurusDEV = {
   ...docusaurusPRD,
-  title: `BETA ${docusaurusPRD.title}`,
+  title: `DEV ${docusaurusPRD.title}`,
   noIndex: true, // Defaults to `false`
 };
 console.log(docusaurusDEV);
