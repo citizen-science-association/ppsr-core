@@ -50,4 +50,4 @@ jobs:
           else
           npm i
           fi
-          npm run deployDev
+          npm run deployBeta
