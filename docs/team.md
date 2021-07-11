@@ -16,12 +16,12 @@ PPSR Core is maintained by an international group of volunteers including member
 
 **Charmel Menzel**, Esri
 
-**Chrysi Tsinaraki**, European Commission's Joint Research Centre 
+**Chrysi Tsinaraki**, European Commission's Joint Research Centre
 
 **Greg Newman**, Colorado State University, CitSci.org
 
 **Peter Brenton**, Atlas of Living Australia  
 
-**Sven Schade**, European Commission's Joint Research Centre 
+**Sven Schade**, European Commission's Joint Research Centre
 
 **Xeni Kechagioglou**, Water Resources Research and Documentation Centre (WARREDOC)
