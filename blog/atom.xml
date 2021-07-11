@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://core.citizenscience.org/blog</id>
+    <title>PPSR Core Blog</title>
+    <updated>2020-07-02T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://core.citizenscience.org/blog"/>
+    <subtitle>PPSR Core Blog</subtitle>
+    <icon>https://core.citizenscience.org/img/csafavicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Approach to addressing Data Quality and Quality Assurance Processes]]></title>
+        <id>approach</id>
+        <link href="https://core.citizenscience.org/blog/approach"/>
+        <updated>2020-07-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The citizen science domain is often criticized for generating data which has limited scientific value. In some cases such criticism may be fair, but in many cases the citizen science domain is unfairly attributed with producing "poor quality" data without data consumers properly considering factors such as "fitness for use".]]></summary>
+    </entry>
+</feed>

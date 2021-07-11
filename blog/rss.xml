@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>PPSR Core Blog</title>
+        <link>https://core.citizenscience.org/blog</link>
+        <description>PPSR Core Blog</description>
+        <lastBuildDate>Thu, 02 Jul 2020 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Approach to addressing Data Quality and Quality Assurance Processes]]></title>
+            <link>https://core.citizenscience.org/blog/approach</link>
+            <guid>approach</guid>
+            <pubDate>Thu, 02 Jul 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[The citizen science domain is often criticized for generating data which has limited scientific value. In some cases such criticism may be fair, but in many cases the citizen science domain is unfairly attributed with producing "poor quality" data without data consumers properly considering factors such as "fitness for use".]]></description>
+        </item>
+    </channel>
+</rss>
