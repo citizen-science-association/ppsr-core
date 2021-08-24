@@ -20,6 +20,8 @@ PPSR Core is maintained by an international group of volunteers including member
 
 **Greg Newman**, Colorado State University, CitSci.org
 
+**John Doe**, PPSR Core Staff
+
 **Peter Brenton**, Atlas of Living Australia  
 
 **Sven Schade**, European Commission's Joint Research Centre
