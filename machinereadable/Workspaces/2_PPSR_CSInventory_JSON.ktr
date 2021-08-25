@@ -783,8 +783,8 @@ JsonOutput = JSON.stringify(jsonProject);
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1600</xloc>
-      <yloc>208</yloc>
+      <xloc>1568</xloc>
+      <yloc>304</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -815,7 +815,7 @@ JsonOutput = JSON.stringify(jsonProject);
     <accept_field/>
     <accept_stepname/>
     <file>
-      <name>C:\Users\irena\Desktop\PPSR_Inventory_Spoon\Input\Inventory of environmental citizen science projects_anonymised.xlsx</name>
+      <name>${Internal.Entry.Current.Directory}\..\Input\Inventory of environmental citizen science projects_anonymised.xlsx</name>
       <filemask/>
       <exclude_filemask/>
       <file_required>N</file_required>
@@ -1831,8 +1831,8 @@ JsonOutput = JSON.stringify(jsonProject);
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1424</xloc>
-      <yloc>208</yloc>
+      <xloc>1392</xloc>
+      <yloc>304</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2036,10 +2036,10 @@ JsonOutput = JSON.stringify(jsonProject);
     <fileNameField/>
     <create_parent_folder>Y</create_parent_folder>
     <file>
-      <name>C:\Users\irena\Desktop\PPSR_Inventory_Spoon\Output\CSInventory_JSON</name>
+      <name>${Internal.Entry.Current.Directory}\..\Output\CSInventory_JSON</name>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
-      <extention>js</extention>
+      <extention>json</extention>
       <append>N</append>
       <split>N</split>
       <haspartno>N</haspartno>
@@ -2075,8 +2075,8 @@ JsonOutput = JSON.stringify(jsonProject);
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1776</xloc>
-      <yloc>208</yloc>
+      <xloc>1744</xloc>
+      <yloc>304</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2151,7 +2151,6 @@ JsonOutput = JSON.stringify(jsonProject);
       </field>
       <field>
         <name>Geographical extent</name>
-        <rename/>
       </field>
       <field>
         <name>Geographic coverage</name>
@@ -2163,11 +2162,9 @@ JsonOutput = JSON.stringify(jsonProject);
       </field>
       <field>
         <name>Lead organisation category</name>
-        <rename/>
       </field>
       <field>
         <name>Start year</name>
-        <rename/>
       </field>
       <field>
         <name>Still active</name>
@@ -2175,11 +2172,9 @@ JsonOutput = JSON.stringify(jsonProject);
       </field>
       <field>
         <name>End year</name>
-        <rename/>
       </field>
       <field>
         <name>Primary environmental domain</name>
-        <rename/>
       </field>
       <field>
         <name>Primary environmental field</name>
@@ -2187,95 +2182,72 @@ JsonOutput = JSON.stringify(jsonProject);
       </field>
       <field>
         <name>Primary category of project</name>
-        <rename/>
       </field>
       <field>
         <name>Social uptake</name>
-        <rename/>
       </field>
       <field>
         <name>Policy aims</name>
-        <rename/>
       </field>
       <field>
         <name>Policy aims explanation</name>
-        <rename/>
       </field>
       <field>
         <name>Policy relevance</name>
-        <rename/>
       </field>
       <field>
         <name>SDG 1 - Poverty</name>
-        <rename/>
       </field>
       <field>
         <name>SDG 2 - Food, sustainable agriculture</name>
-        <rename/>
       </field>
       <field>
         <name>SDG 3 - Health and well-being</name>
-        <rename/>
       </field>
       <field>
         <name>SDG 4 - Education</name>
-        <rename/>
       </field>
       <field>
         <name>SDG 5 - Gender equality</name>
-        <rename/>
       </field>
       <field>
         <name>SDG 6 - Water availability and sustainable management</name>
-        <rename/>
       </field>
       <field>
         <name>SDG 7 - Energy affordable, reliable, sustainable</name>
-        <rename/>
       </field>
       <field>
         <name>SDG 8 - Sustainable economic growth and employment</name>
-        <rename/>
       </field>
       <field>
         <name>SDG 9 - Resilient infrastructure, innovation</name>
-        <rename/>
       </field>
       <field>
         <name>SDG 10 - Reduce inequality</name>
-        <rename/>
       </field>
       <field>
         <name>SDG 11 - Sustainable, resilient cities/settlements</name>
-        <rename/>
       </field>
       <field>
         <name>SDG 12 - Sustainable consumption and production</name>
-        <rename/>
       </field>
       <field>
         <name>SDG 13 - Action to combat climate change and its impacts</name>
-        <rename/>
       </field>
       <field>
         <name>SDG 14 - Marine conservation and sustainable development</name>
-        <rename/>
       </field>
       <field>
         <name>SDG 15 - Terrestrial biodiversity conservation, sustainable forest management and land use management</name>
-        <rename/>
       </field>
       <field>
         <name>SDG 16 - Peace, justice for all</name>
-        <rename/>
       </field>
       <field>
         <name>SDG 17 - Strengthen Global Partnership for Sustainable Development</name>
-        <rename/>
       </field>
       <field>
         <name>Source</name>
-        <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
     </fields>

@@ -36,7 +36,7 @@ module.exports = {
         },
       ],
     },
-    sidebarCollapsible: false,
+    sidebarCollapsible: true,
     footer: {
       style: 'dark',
       links: [
@@ -119,7 +119,6 @@ module.exports = {
       {
         docs: {
           path: 'docs',
-          homePageId: 'overview',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/citizen-science-association/ppsr-core/edit/master/',
