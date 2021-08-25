@@ -12,13 +12,15 @@ PPSR Core is maintained by an international group of volunteers including member
 
 **Anne Bowser**, The Wilson Center
 
-**Brandon Budnicki**, Budnicki Consulting  
+**Brandon Budnicki**, Colorado State University, CitSci.org, Budnicki Consulting  
 
 **Charmel Menzel**, Esri
 
 **Chrysi Tsinaraki**, European Commission's Joint Research Centre
 
 **Greg Newman**, Colorado State University, CitSci.org
+
+**Lucy Bastin**, Aston University, UK
 
 **Peter Brenton**, Atlas of Living Australia  
 
