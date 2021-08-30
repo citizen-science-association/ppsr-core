@@ -20,6 +20,8 @@ PPSR Core is maintained by an international group of volunteers including member
 
 **Greg Newman**, Colorado State University, CitSci.org
 
+**Jessie Oliver**, Australian Citizen Science Association
+
 **Lucy Bastin**, Aston University, UK
 
 **Mieke Sterken**, KULeuven, Belgium
