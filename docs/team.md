@@ -26,7 +26,9 @@ PPSR Core is maintained by an international group of volunteers including member
 
 **Mieke Sterken**, KULeuven, Belgium
 
-**Peter Brenton**, Atlas of Living Australia  
+**Peter Brenton**, Atlas of Living Australia
+
+**Rob Lemmens**, University of Twente, The Netherlands
 
 **Sven Schade**, European Commission's Joint Research Centre
 
