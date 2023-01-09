@@ -24,6 +24,8 @@ PPSR Core is maintained by an international group of volunteers including member
 
 **Lucy Bastin**, Aston University, UK
 
+**Luigi Ceccaroni**, Earthwatch, UK
+
 **Mieke Sterken**, KULeuven, Belgium
 
 **Peter Brenton**, Atlas of Living Australia
