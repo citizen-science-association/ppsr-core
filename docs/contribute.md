@@ -22,7 +22,7 @@ Our working group frequently meets to review changes. To join our mailing list a
 ```
 corer@citizenscience.org
 ```
-**Citizen Science Assocaition Data & Metadata Working Group**
+**Citizen Science Association Data & Metadata Working Group**
 ```
 data_cochair@citizenscience.org
 ```
@@ -32,17 +32,17 @@ data_cochair@citizenscience.org
 
 ## Contributing through GitHub
 
-This standard is maintained in a GitHub repository. Don't worry, deep understanding of GitHub is not required, **you don't have to be a programer**.
+This standard is maintained in a GitHub repository. Don't worry, deep understanding of GitHub is not required, **you don't have to be a programmer**.
 
 You will need to be logged into a free [GitHub](https://github.com/) account to make changes. We maintain a [technical page](technical) if you want to help with more the technical aspects or understand how this site was built.
 
 
 ### Editing An Existing Page
 
-Editing any page is simple. At the bottom of each page is a "edit this page" link that will take you from the website to that file within within our repository GitHub. 
+Editing any page is simple. At the bottom of each page is a "edit this page" link that will take you from the website to that file within our repository GitHub.
 
 ### Page Syntax
-This site is build using Docusaurus. [Docusaurus Markdown](https://docusaurus.io/docs/markdown-features) is an extension of the [standard Markdown syntax](https://daringfireball.net/projects/markdown/syntax).[This quickstart](https://guides.github.com/features/mastering-markdown/) guide includes styling for headers, tables, URL linking, and font formating.
+This site is build using Docusaurus. [Docusaurus Markdown](https://docusaurus.io/docs/markdown-features) is an extension of the [standard Markdown syntax](https://daringfireball.net/projects/markdown/syntax).[This quickstart](https://guides.github.com/features/mastering-markdown/) guide includes styling for headers, tables, URL linking, and font formatting.
 
 ### Proposing changes
 Anyone is welcome to propose changes to the standard. Those changes will go through the PPSR Core review process based on its scope. After you have edited an existing page OR added a new one, the bottom of the file will have a "Propose changes" section. Please include a [good description](https://chris.beams.io/posts/git-commit/). Explain **why** the change is needed.
@@ -59,7 +59,7 @@ Living atlas uses this schema. We received permission to use them as an example 
 ```
 Fixed typos on homepage
 ```
-Next you will click the propose changes button. This will create a copy of the PPSR Core website code tied to your GitHub account. Multiple changes from diffrent pages can then be grouped together into a pull request. For simple changes, you can immediatly create that pull request. The pull request will than appear on [github.com/citizen-science-association/ppsr-core/pulls](https://github.com/citizen-science-association/ppsr-core/pulls) where it can then go through the review process.
+Next you will click the propose changes button. This will create a copy of the PPSR Core website code tied to your GitHub account. Multiple changes from different pages can then be grouped together into a pull request. For simple changes, you can immediately create that pull request. The pull request will then appear on [github.com/citizen-science-association/ppsr-core/pulls](https://github.com/citizen-science-association/ppsr-core/pulls) where it can then go through the review process.
 
 
 ## Editing the Schema
