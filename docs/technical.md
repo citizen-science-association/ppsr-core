@@ -51,7 +51,7 @@ These requirements are the same for all [Docusaurus](https://v2.docusaurus.io/do
 
         node -v
 
-- A plaintext editor for exiting files. **Do not use Microsoft Word** Ses below for recommendation
+- A plaintext editor for exiting files. **Do not use Microsoft Word** See below for recommendation
 
 #### Recommended
 We recommend the following additional tools to aid in content editing & ease of use. Install these if you are not experienced with software development, they will make your life easier.
